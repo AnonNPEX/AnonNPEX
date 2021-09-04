@@ -6,5 +6,5 @@ NPEX analyzer for specification inference & patch validation: https://anonymous.
 NPEX null handling model & patch generator : https://anonymous.4open.science/r/npex_repo_tmp-D831
 
 ## Raw results
-Raw result contains 
+Raw results containing internal results e.g., specification we inferred 
 https://drive.google.com/file/d/1ePNEmYAKEnot4zSwuo4GDuYZTesWdXq_/view?usp=sharing
