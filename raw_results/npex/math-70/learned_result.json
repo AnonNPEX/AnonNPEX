@@ -1,0 +1,38 @@
+{
+    "number_of_patches": 13,
+    "time_to_verify": 36.44730353355408,
+    "time_to_inference": 3.9046196937561035,
+    "time_to_capture_original": 0.0,
+    "time_to_capture_patches": 0.0,
+    "results": {
+        "SkipContinueStrategy_89-106_1": "InEquiv",
+        "SkipReturnStrategy_66-66_1": "InEquiv",
+        "SkipReturnParam_79-89_4": "InEquiv",
+        "SkipSinkStatementStrategy_89-89_3": "InEquiv",
+        "ReplaceEntireExpressionStrategy_89_1": "InEquiv",
+        "SkipSinkStatementStrategy_66-66_0": "InEquiv",
+        "ReplaceEntireExpressionStrategy_66_1": "InEquiv",
+        "SkipBreakStrategy_89-86_2": "InEquiv",
+        "ReplaceEntireExpressionStrategy_89_0": "InEquiv",
+        "ReplaceEntireExpressionStrategy_66_0": "InEquiv",
+        "SkipReturnStrategy_66-66_2": "InEquiv",
+        "SkipBlockStrategy_87-106_0": "InEquiv",
+        "SkipReturnParam_79-89_5": "InEquiv"
+    },
+    "verified_patches": [],
+    "rejected_patches": [
+        "SkipContinueStrategy_89-106_1",
+        "SkipReturnStrategy_66-66_1",
+        "SkipReturnParam_79-89_4",
+        "SkipSinkStatementStrategy_89-89_3",
+        "ReplaceEntireExpressionStrategy_89_1",
+        "SkipSinkStatementStrategy_66-66_0",
+        "ReplaceEntireExpressionStrategy_66_1",
+        "SkipBreakStrategy_89-86_2",
+        "ReplaceEntireExpressionStrategy_89_0",
+        "ReplaceEntireExpressionStrategy_66_0",
+        "SkipReturnStrategy_66-66_2",
+        "SkipBlockStrategy_87-106_0",
+        "SkipReturnParam_79-89_5"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "number_of_patches": 6,
+    "time_to_verify": 46.54384899139404,
+    "time_to_inference": 8.225964069366455,
+    "time_to_capture_original": 0.0,
+    "time_to_capture_patches": 0.0,
+    "results": {
+        "ReplaceEntireExpressionStrategy_22_1": "InEquiv",
+        "ReplaceEntireExpressionStrategy_22_3": "InEquiv",
+        "SkipReturnStrategy_22-22_1": "InEquiv",
+        "SkipSinkStatementStrategy_22-22_0": "InEquiv",
+        "ReplaceEntireExpressionStrategy_22_2": "InEquiv",
+        "ReplaceEntireExpressionStrategy_22_0": "InEquiv"
+    },
+    "verified_patches": [],
+    "rejected_patches": [
+        "ReplaceEntireExpressionStrategy_22_1",
+        "ReplaceEntireExpressionStrategy_22_3",
+        "SkipReturnStrategy_22-22_1",
+        "SkipSinkStatementStrategy_22-22_0",
+        "ReplaceEntireExpressionStrategy_22_2",
+        "ReplaceEntireExpressionStrategy_22_0"
+    ]
+}

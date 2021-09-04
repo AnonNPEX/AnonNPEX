@@ -1,0 +1,8 @@
+{
+  "filepath": "src/main/java/com/zaxxer/hikari/pool/ProxyConnection.java",
+  "line": 198,
+  "deref_field": "openStatements",
+  "npe_class": "ProxyConnection",
+  "npe_method": "closeStatements",
+  "fault_type": "NullAssign"
+}

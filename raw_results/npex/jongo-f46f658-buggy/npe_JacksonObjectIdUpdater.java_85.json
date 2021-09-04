@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "src/main/java/org/jongo/marshall/jackson/JacksonObjectIdUpdater.java",
+  "line": 85,
+  "deref_field": "getField",
+  "npe_class": "JacksonObjectIdUpdater",
+  "npe_method": "isObjectId",
+  "fault_type": "NullDereference"
+}

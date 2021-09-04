@@ -1,0 +1,7 @@
+{
+    "filepath": "jest-common/src/main/java/io/searchbox/client/config/discovery/NodeChecker.java",
+    "line": 114,
+    "npe_method": "removeNodeAndUpdateServers",
+    "deref_field": "discoveredServerList",
+    "npe_class": "NodeChecker"
+}

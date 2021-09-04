@@ -1,0 +1,5 @@
+{
+    "contents": "if (wildcard != null) {\n    com.squareup.javapoet.TypeName type = com.squareup.javapoet.TypeName.get(wildcard);\n}",
+    "original_filepath": "src/test/java/com/squareup/javapoet/TypesTest.java",
+    "patched_lines": [184]
+}

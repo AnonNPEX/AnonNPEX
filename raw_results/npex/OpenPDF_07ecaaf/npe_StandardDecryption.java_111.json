@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "openpdf/src/main/java/com/lowagie/text/pdf/StandardDecryption.java",
+  "line": 111,
+  "deref_field": "cipher",
+  "npe_class": "StandardDecryption",
+  "npe_method": "finish",
+  "fault_type": "NullAssign"
+}

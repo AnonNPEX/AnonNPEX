@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/bcel/generic/MethodGen.java",
+    "line": 182,
+    "npe_method": "<init>",
+    "deref_field": "getCode",
+    "npe_class": "MethodGen"
+}

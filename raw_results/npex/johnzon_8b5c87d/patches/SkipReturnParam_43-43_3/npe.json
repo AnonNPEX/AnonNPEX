@@ -1,0 +1,7 @@
+{
+    "filepath": "johnzon-mapper/src/main/java/org/apache/johnzon/mapper/converter/EnumConverter.java",
+    "line": 43,
+    "npe_method": "toString",
+    "deref_field": "instance",
+    "npe_class": "EnumConverter"
+}

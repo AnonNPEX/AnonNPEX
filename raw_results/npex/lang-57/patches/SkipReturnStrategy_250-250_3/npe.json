@@ -1,0 +1,7 @@
+{
+    "filepath": "org/apache/commons/lang3/LocaleUtils.java",
+    "line": 250,
+    "npe_method": "isAvailableLocale",
+    "deref_field": "cAvailableLocaleSet",
+    "npe_class": "LocaleUtils"
+}

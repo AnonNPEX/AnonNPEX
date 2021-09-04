@@ -1,0 +1,5 @@
+{
+    "contents": "if (a == null) {\n    throw new com.fasterxml.jackson.databind.JsonMappingException(\"\");\n}",
+    "original_filepath": "src/main/java/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java",
+    "patched_lines": [556]
+}

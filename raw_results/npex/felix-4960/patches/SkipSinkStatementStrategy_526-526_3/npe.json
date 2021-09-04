@@ -1,0 +1,7 @@
+{
+    "filepath": "org/apache/felix/framework/BundleRevisionImpl.java",
+    "line": 526,
+    "npe_method": "getResourcesLocal",
+    "deref_field": "contentPath",
+    "npe_class": "BundleRevisionImpl"
+}

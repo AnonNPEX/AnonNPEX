@@ -1,0 +1,53 @@
+{
+    "number_of_patches": 20,
+    "time_to_verify": 346.1261177062988,
+    "time_to_inference": 5.1954026222229,
+    "time_to_capture_original": 0.0,
+    "time_to_capture_patches": 0.0,
+    "results": {
+        "ReplaceEntireExpressionStrategy_768_0": "SynEquiv",
+        "SkipReturnStrategy_766-766_6": "InEquiv",
+        "ReplaceEntireExpressionStrategy_766_0": "InEquiv",
+        "ReplaceEntireExpressionStrategy_768_4": "InEquiv",
+        "SkipReturnStrategy_766-766_5": "InEquiv",
+        "SkipThrowStrategy_766-766_1": "InEquiv",
+        "SkipThrowStrategy_768-768_0": "InEquiv",
+        "SkipThrowStrategy_768-768_1": "InEquiv",
+        "ReplacePointerStrategy_768_1": "InEquiv",
+        "SkipReturnStrategy_768-768_6": "InEquiv",
+        "SkipSinkStatementStrategy_768-768_3": "SynEquiv",
+        "SkipThrowStrategy_768-768_2": "InEquiv",
+        "SkipReturnStrategy_768-768_5": "InEquiv",
+        "ReplacePointerStrategy_766_1": "InEquiv",
+        "SkipSinkStatementStrategy_766-766_3": "InEquiv",
+        "npex.synthesizer.strategy.InitPointerStrategyObject_766-766_4": "InEquiv",
+        "SkipThrowStrategy_766-766_0": "InEquiv",
+        "npex.synthesizer.strategy.InitPointerStrategyObject_768-768_4": "InEquiv",
+        "ReplaceEntireExpressionStrategy_768_3": "SynEquiv",
+        "SkipThrowStrategy_766-766_2": "InEquiv"
+    },
+    "verified_patches": [
+        "ReplaceEntireExpressionStrategy_768_0",
+        "SkipSinkStatementStrategy_768-768_3",
+        "ReplaceEntireExpressionStrategy_768_3"
+    ],
+    "rejected_patches": [
+        "SkipReturnStrategy_766-766_6",
+        "ReplaceEntireExpressionStrategy_766_0",
+        "ReplaceEntireExpressionStrategy_768_4",
+        "SkipReturnStrategy_766-766_5",
+        "SkipThrowStrategy_766-766_1",
+        "SkipThrowStrategy_768-768_0",
+        "SkipThrowStrategy_768-768_1",
+        "ReplacePointerStrategy_768_1",
+        "SkipReturnStrategy_768-768_6",
+        "SkipThrowStrategy_768-768_2",
+        "SkipReturnStrategy_768-768_5",
+        "ReplacePointerStrategy_766_1",
+        "SkipSinkStatementStrategy_766-766_3",
+        "npex.synthesizer.strategy.InitPointerStrategyObject_766-766_4",
+        "SkipThrowStrategy_766-766_0",
+        "npex.synthesizer.strategy.InitPointerStrategyObject_768-768_4",
+        "SkipThrowStrategy_766-766_2"
+    ]
+}

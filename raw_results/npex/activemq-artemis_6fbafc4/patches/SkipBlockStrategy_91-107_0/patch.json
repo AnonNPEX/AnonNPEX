@@ -1,0 +1,5 @@
+{
+    "contents": "if (inList != null) {\n    java.lang.StringBuffer answer = new java.lang.StringBuffer();\n    answer.append(right);\n    answer.append(\" \");\n    answer.append(getExpressionSymbol());\n    answer.append(\" ( \");\n    int count = 0;\n    for (java.lang.Object o : inList) {\n        if (count != 0) {\n            answer.append(\", \");\n        }\n        answer.append(o);\n        count++;\n    }\n    answer.append(\" )\");\n    return answer.toString();\n}",
+    "original_filepath": "src/main/java/org/apache/activemq/artemis/selector/filter/UnaryExpression.java",
+    "patched_lines": [92]
+}

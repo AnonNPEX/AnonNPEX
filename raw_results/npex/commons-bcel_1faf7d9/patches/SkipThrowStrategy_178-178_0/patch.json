@@ -1,0 +1,5 @@
+{
+    "contents": "if (m.getCode() == null) {\n    throw new org.apache.bcel.generic.ClassGenException();\n}",
+    "original_filepath": "src/main/java/org/apache/bcel/generic/MethodGen.java",
+    "patched_lines": [189]
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+    "line": 66,
+    "npe_method": "solve",
+    "deref_field": "f",
+    "npe_class": "BisectionSolver"
+}

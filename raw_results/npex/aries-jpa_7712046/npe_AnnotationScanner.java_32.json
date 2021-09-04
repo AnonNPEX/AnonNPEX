@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "jpa-blueprint/src/main/java/org/apache/aries/jpa/blueprint/impl/AnnotationScanner.java",
+  "line": 32,
+  "deref_field": "c",
+  "npe_class": "AnnotationScanner",
+  "npe_method": "getJpaAnnotatedMembers",
+  "fault_type": "NullAssign"
+}

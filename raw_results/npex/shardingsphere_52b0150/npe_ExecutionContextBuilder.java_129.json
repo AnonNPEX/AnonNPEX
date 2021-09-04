@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "shardingsphere-infra/shardingsphere-infra-executor/src/main/java/org/apache/shardingsphere/infra/executor/sql/context/ExecutionContextBuilder.java",
+  "line": 129,
+  "deref_field": "get",
+  "npe_class": "ExecutionContextBuilder",
+  "npe_method": "getPrimaryKeyColumns",
+  "fault_type": "NullDereference"
+}

@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "httpcore5/src/main/java/org/apache/hc/core5/net/URIBuilder.java",
+  "line": 571,
+  "deref_field": "pathSegments",
+  "npe_class": "URIBuilder",
+  "npe_method": "appendPathSegments",
+  "fault_type": "NullDereference"
+}

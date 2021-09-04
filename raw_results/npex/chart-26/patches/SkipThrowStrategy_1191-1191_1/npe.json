@@ -1,0 +1,7 @@
+{
+    "filepath": "org/jfree/chart/axis/Axis.java",
+    "line": 1191,
+    "npe_method": "drawLabel",
+    "deref_field": "getOwner",
+    "npe_class": "Axis"
+}

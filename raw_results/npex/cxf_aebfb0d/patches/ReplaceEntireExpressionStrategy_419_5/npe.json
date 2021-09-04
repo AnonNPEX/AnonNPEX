@@ -1,0 +1,7 @@
+{
+    "filepath": "security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/jws/JwsUtils.java",
+    "line": 419,
+    "npe_method": "loadSignatureVerifier",
+    "deref_field": "inHeaders",
+    "npe_class": "JwsUtils"
+}

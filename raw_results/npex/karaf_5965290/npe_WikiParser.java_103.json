@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "core/src/main/java/org/apache/karaf/shell/impl/console/commands/help/wikidoc/WikiParser.java",
+  "line": 103,
+  "deref_field": "level",
+  "npe_class": "WikiParser",
+  "npe_method": "parseHeading",
+  "fault_type": "NullAssign"
+}

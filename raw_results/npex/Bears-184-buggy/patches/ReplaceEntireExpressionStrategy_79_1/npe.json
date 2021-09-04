@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/springframework/data/jpa/util/JpaMetamodel.java",
+    "line": 79,
+    "npe_method": "lambda$isSingleIdAttribute$0",
+    "deref_field": "getJavaType",
+    "npe_class": "JpaMetamodel"
+}

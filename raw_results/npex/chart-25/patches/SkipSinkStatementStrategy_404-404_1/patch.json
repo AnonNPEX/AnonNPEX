@@ -1,0 +1,5 @@
+{
+    "contents": "if (meanValue != null) {\n    double value = meanValue.doubleValue();\n}",
+    "original_filepath": "org/jfree/chart/renderer/category/StatisticalBarRenderer.java",
+    "patched_lines": [410]
+}

@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "src/main/java/org/springframework/data/repository/config/RepositoryBeanNameGenerator.java",
+  "line": 68,
+  "deref_field": "getArgumentValue",
+  "npe_class": "RepositoryBeanNameGenerator",
+  "npe_method": "getRepositoryInterfaceFrom",
+  "fault_type": "NullDereference"
+}

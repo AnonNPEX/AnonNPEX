@@ -1,0 +1,7 @@
+{
+    "filepath": "core/src/main/java/com/google/errorprone/bugpatterns/threadsafety/GuardedByBinder.java",
+    "line": 185,
+    "npe_method": "visitMethodInvocation",
+    "deref_field": "method",
+    "npe_class": "2"
+}

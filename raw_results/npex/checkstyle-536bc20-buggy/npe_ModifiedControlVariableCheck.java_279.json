@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ModifiedControlVariableCheck.java",
+  "line": 279,
+  "deref_field": "identAST",
+  "npe_class": "ModifiedControlVariableCheck",
+  "npe_method": "checkIdent",
+  "fault_type": "NullAssign"
+}

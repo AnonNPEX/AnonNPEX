@@ -1,0 +1,7 @@
+{
+    "filepath": "src/org/nutz/http/Sender.java",
+    "line": 68,
+    "npe_method": "create",
+    "deref_field": "getParams",
+    "npe_class": "Sender"
+}

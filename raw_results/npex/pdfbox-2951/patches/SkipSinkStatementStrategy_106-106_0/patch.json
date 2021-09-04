@@ -1,0 +1,5 @@
+{
+    "contents": "if (names != null) {\n    // we have to wait until all add() calls are done before building the name cache\n    // otherwise /Differences won't be accounted for\n    return names.contains(name);\n}",
+    "original_filepath": "org/apache/pdfbox/pdmodel/font/encoding/Encoding.java",
+    "patched_lines": [110]
+}

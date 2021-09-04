@@ -1,0 +1,7 @@
+{
+    "filepath": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/DictionaryLemmatizer.java",
+    "line": 117,
+    "npe_method": "lemmatize",
+    "deref_field": "keyValues",
+    "npe_class": "DictionaryLemmatizer"
+}

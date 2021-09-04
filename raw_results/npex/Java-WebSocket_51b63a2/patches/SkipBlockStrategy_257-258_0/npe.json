@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/java_websocket/server/WebSocketServer.java",
+    "line": 257,
+    "npe_method": "stop",
+    "deref_field": "selector",
+    "npe_class": "WebSocketServer"
+}

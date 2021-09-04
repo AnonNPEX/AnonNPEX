@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "proton-j/src/main/java/org/apache/qpid/proton/codec/MapType.java",
+  "line": 101,
+  "deref_field": "getType",
+  "npe_class": "MapType",
+  "npe_method": "calculateSize",
+  "fault_type": "NullDereference"
+}

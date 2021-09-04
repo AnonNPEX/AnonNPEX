@@ -1,0 +1,7 @@
+{
+    "filepath": "Main.java",
+    "line": 22,
+    "npe_method": "testBug2849731_2",
+    "deref_field": "r",
+    "npe_class": "Main"
+}

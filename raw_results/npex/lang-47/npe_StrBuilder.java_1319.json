@@ -1,0 +1,8 @@
+{
+  "filepath": "org/apache/commons/lang3/text/StrBuilder.java",
+  "line": 1319,
+  "deref_field": "str",
+  "npe_class": "StrBuilder",
+  "npe_method": "appendFixedWidthPadRight",
+  "fault_type": "NullAssign"
+}

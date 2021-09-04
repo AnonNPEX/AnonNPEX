@@ -1,0 +1,7 @@
+{
+    "filepath": "proton-j/src/main/java/org/apache/qpid/proton/engine/impl/TransportImpl.java",
+    "line": 633,
+    "npe_method": "processTransportWorkSender",
+    "deref_field": "tpSession",
+    "npe_class": "TransportImpl"
+}

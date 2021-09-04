@@ -1,0 +1,27 @@
+{
+    "number_of_patches": 7,
+    "time_to_verify": 69.71649241447449,
+    "time_to_inference": 10.28273630142212,
+    "time_to_capture_original": 0.0,
+    "time_to_capture_patches": 0.0,
+    "results": {
+        "ReplacePointerStrategy_68_1": "InEquiv",
+        "SkipBlockStrategy_68-68_0": "SynEquiv",
+        "SkipThrowStrategy_68-68_1": "InEquiv",
+        "SkipReturnStrategy_68-68_5": "InEquiv",
+        "ReplaceEntireExpressionStrategy_68_0": "InEquiv",
+        "SkipThrowStrategy_68-68_2": "InEquiv",
+        "SkipThrowStrategy_68-68_3": "InEquiv"
+    },
+    "verified_patches": [
+        "SkipBlockStrategy_68-68_0"
+    ],
+    "rejected_patches": [
+        "ReplacePointerStrategy_68_1",
+        "SkipThrowStrategy_68-68_1",
+        "SkipReturnStrategy_68-68_5",
+        "ReplaceEntireExpressionStrategy_68_0",
+        "SkipThrowStrategy_68-68_2",
+        "SkipThrowStrategy_68-68_3"
+    ]
+}

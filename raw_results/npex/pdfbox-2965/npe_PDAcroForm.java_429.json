@@ -1,0 +1,8 @@
+{
+  "filepath": "org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java",
+  "line": 429,
+  "deref_field": "fields",
+  "npe_class": "PDAcroForm",
+  "npe_method": "getField",
+  "fault_type": "NullAssign"
+}

@@ -1,0 +1,5 @@
+{
+    "contents": "if (level == null) {\n    level = \"\";\n}",
+    "original_filepath": "core/src/main/java/org/apache/karaf/shell/impl/console/commands/help/wikidoc/WikiParser.java",
+    "patched_lines": [104]
+}

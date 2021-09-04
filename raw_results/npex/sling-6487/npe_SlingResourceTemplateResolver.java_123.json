@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "org/apache/sling/scripting/thymeleaf/internal/SlingResourceTemplateResolver.java",
+  "line": 123,
+  "deref_field": "fakeProvideTemplateMode",
+  "npe_class": "SlingResourceTemplateResolver",
+  "npe_method": "resolveTemplate",
+  "fault_type": "NullAssign"
+}

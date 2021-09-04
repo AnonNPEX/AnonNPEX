@@ -1,0 +1,19 @@
+{
+    "number_of_patches": 3,
+    "time_to_verify": 65.68473553657532,
+    "time_to_inference": 19.167986154556274,
+    "time_to_capture_original": 0.0,
+    "time_to_capture_patches": 0.0,
+    "results": {
+        "SkipReturnStrategy_272-272_2": "InEquiv",
+        "ReplaceEntireExpressionStrategy_272_0": "SynEquiv",
+        "SkipBlockStrategy_272-272_0": "InEquiv"
+    },
+    "verified_patches": [
+        "ReplaceEntireExpressionStrategy_272_0"
+    ],
+    "rejected_patches": [
+        "SkipReturnStrategy_272-272_2",
+        "SkipBlockStrategy_272-272_0"
+    ]
+}

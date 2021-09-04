@@ -1,0 +1,5 @@
+{
+    "contents": "if (value != null) {\n    java.lang.String value = cookie.getValue();\n    if (value.length() == 0) {\n        return null;\n    }\n    if ((value.charAt(0) == '\"') && (value.charAt(value.length() - 1) == '\"')) {\n        value = value.substring(1, value.length() - 1);\n    }\n    return value;\n}",
+    "original_filepath": "jspwiki-util/src/main/java/org/apache/wiki/util/HttpUtil.java",
+    "patched_lines": [88]
+}

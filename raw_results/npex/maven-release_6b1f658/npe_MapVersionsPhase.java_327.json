@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "maven-release-manager/src/main/java/org/apache/maven/shared/release/phase/MapVersionsPhase.java",
+  "line": 327,
+  "deref_field": "policy",
+  "npe_class": "MapVersionsPhase",
+  "npe_method": "resolveSuggestedVersion",
+  "fault_type": "NullAssign"
+}

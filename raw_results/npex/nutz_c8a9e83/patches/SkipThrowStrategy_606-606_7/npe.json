@@ -1,0 +1,7 @@
+{
+    "filepath": "src/org/nutz/lang/Mirror.java",
+    "line": 606,
+    "npe_method": "getAnnotation",
+    "deref_field": "cc",
+    "npe_class": "Mirror"
+}

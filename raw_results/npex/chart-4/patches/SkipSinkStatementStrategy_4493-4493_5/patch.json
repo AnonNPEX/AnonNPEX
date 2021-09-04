@@ -1,0 +1,5 @@
+{
+    "contents": "if (r != null) {\n    java.util.Collection c = r.getAnnotations();\n}",
+    "original_filepath": "org/jfree/chart/plot/XYPlot.java",
+    "patched_lines": [4487]
+}

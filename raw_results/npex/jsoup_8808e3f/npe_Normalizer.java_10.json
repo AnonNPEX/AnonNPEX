@@ -1,0 +1,8 @@
+{
+  "filepath": "src/main/java/org/jsoup/internal/Normalizer.java",
+  "line": 10,
+  "deref_field": "input",
+  "npe_class": "Normalizer",
+  "npe_method": "lowerCase",
+  "fault_type": "Parameter"
+}

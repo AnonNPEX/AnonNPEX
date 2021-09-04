@@ -1,0 +1,7 @@
+{
+    "filepath": "core/src/main/java/tech/tablesaw/api/ColumnType.java",
+    "line": 71,
+    "npe_method": "compare",
+    "deref_field": "get",
+    "npe_class": "ColumnType"
+}

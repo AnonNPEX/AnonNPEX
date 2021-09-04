@@ -1,0 +1,7 @@
+{
+    "filepath": "jspwiki-util/src/main/java/org/apache/wiki/util/HttpUtil.java",
+    "line": 78,
+    "npe_method": "retrieveCookieValue",
+    "deref_field": "value",
+    "npe_class": "HttpUtil"
+}

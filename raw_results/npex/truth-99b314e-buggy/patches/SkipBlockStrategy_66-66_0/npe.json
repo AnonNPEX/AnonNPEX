@@ -1,0 +1,7 @@
+{
+    "filepath": "core/src/main/java/org/truth0/subjects/MapSubject.java",
+    "line": 66,
+    "npe_method": "withValue",
+    "deref_field": "expected",
+    "npe_class": "MapSubject"
+}

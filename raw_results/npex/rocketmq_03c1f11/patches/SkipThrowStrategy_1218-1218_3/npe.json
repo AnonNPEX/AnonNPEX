@@ -1,0 +1,7 @@
+{
+    "filepath": "client/src/main/java/org/apache/rocketmq/client/impl/factory/MQClientInstance.java",
+    "line": 1218,
+    "npe_method": "consumerRunningInfo",
+    "deref_field": "mqConsumerInner",
+    "npe_class": "MQClientInstance"
+}

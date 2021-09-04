@@ -1,0 +1,7 @@
+{
+    "filepath": "log4j-core/src/main/java/org/apache/logging/log4j/core/config/ConfigurationScheduler.java",
+    "line": 107,
+    "npe_method": "schedule",
+    "deref_field": "executorService",
+    "npe_class": "ConfigurationScheduler"
+}

@@ -1,0 +1,17 @@
+{
+    "number_of_patches": 2,
+    "time_to_verify": 31.325180530548096,
+    "time_to_inference": 12.71094536781311,
+    "time_to_capture_original": 0.0,
+    "time_to_capture_patches": 0.0,
+    "results": {
+        "SkipBlockStrategy_211-211_0": "SynEquiv",
+        "SkipReturnStrategy_211-211_2": "InEquiv"
+    },
+    "verified_patches": [
+        "SkipBlockStrategy_211-211_0"
+    ],
+    "rejected_patches": [
+        "SkipReturnStrategy_211-211_2"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/ParameterNameCheck.java",
+  "line": 122,
+  "deref_field": "annotation",
+  "npe_class": "ParameterNameCheck",
+  "npe_method": "isOverriddenMethod",
+  "fault_type": "NullAssign"
+}

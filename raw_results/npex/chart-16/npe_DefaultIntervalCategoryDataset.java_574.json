@@ -1,0 +1,8 @@
+{
+  "filepath": "org/jfree/data/category/DefaultIntervalCategoryDataset.java",
+  "line": 574,
+  "deref_field": "categoryKeys",
+  "npe_class": "DefaultIntervalCategoryDataset",
+  "npe_method": "getCategoryIndex",
+  "fault_type": "NullDereference"
+}

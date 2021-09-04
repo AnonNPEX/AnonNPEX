@@ -1,0 +1,7 @@
+{
+    "filepath": "surefire-providers/common-java5/src/main/java/org/apache/maven/surefire/report/SmartStackTraceParser.java",
+    "line": 194,
+    "npe_method": "focusOnClass",
+    "deref_field": "stackTrace",
+    "npe_class": "SmartStackTraceParser"
+}

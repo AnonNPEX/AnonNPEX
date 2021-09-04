@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "core/src/main/java/org/apache/shiro/aop/DefaultAnnotationResolver.java",
+  "line": 62,
+  "deref_field": "getThis",
+  "npe_class": "DefaultAnnotationResolver",
+  "npe_method": "getAnnotation",
+  "fault_type": "NullDereference"
+}

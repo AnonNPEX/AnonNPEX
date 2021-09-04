@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/spoon/reflect/visitor/ImportScannerImpl.java",
+    "line": 566,
+    "npe_method": "isTypeInCollision",
+    "deref_field": "targetType",
+    "npe_class": "ImportScannerImpl"
+}

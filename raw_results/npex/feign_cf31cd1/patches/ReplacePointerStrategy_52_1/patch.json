@@ -1,0 +1,5 @@
+{
+    "contents": "(this.headers != null) ? this.headers : new java.util.HashMap() = java.util.Collections.unmodifiableMap(feign.Response.caseInsensitiveCopyOf(builder.headers))",
+    "original_filepath": "core/src/main/java/feign/Response.java",
+    "patched_lines": [54]
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/com/squareup/javapoet/WildcardTypeName.java",
+    "line": 92,
+    "npe_method": "get",
+    "deref_field": "getExtendsBound",
+    "npe_class": "WildcardTypeName"
+}

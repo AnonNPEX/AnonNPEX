@@ -1,0 +1,7 @@
+{
+    "filepath": "org/jfree/chart/plot/XYPlot.java",
+    "line": 4493,
+    "npe_method": "getDataRange",
+    "deref_field": "r",
+    "npe_class": "XYPlot"
+}

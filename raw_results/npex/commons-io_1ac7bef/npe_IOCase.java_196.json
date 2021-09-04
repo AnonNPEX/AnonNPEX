@@ -1,0 +1,8 @@
+{
+  "filepath": "src/main/java/org/apache/commons/io/IOCase.java",
+  "line": 196,
+  "deref_field": "end",
+  "npe_class": "IOCase",
+  "npe_method": "checkEndsWith",
+  "fault_type": "NullAssign"
+}

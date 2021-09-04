@@ -1,0 +1,7 @@
+{
+    "filepath": "org/apache/commons/collections/iterators/FilterListIterator.java",
+    "line": 232,
+    "npe_method": "setNextObject",
+    "deref_field": "iterator",
+    "npe_class": "FilterListIterator"
+}

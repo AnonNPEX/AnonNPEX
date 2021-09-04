@@ -1,0 +1,25 @@
+{
+    "number_of_patches": 6,
+    "time_to_verify": 15.91225528717041,
+    "time_to_inference": 4.1813578605651855,
+    "time_to_capture_original": 0.0,
+    "time_to_capture_patches": 0.0,
+    "results": {
+        "SkipSinkStatementStrategy_341-341_2": "SemEquiv",
+        "ReplacePointerStrategy_341_0": "SemEquiv",
+        "SkipThrowStrategy_341-341_1": "InEquiv",
+        "SkipReturnStrategy_341-341_4": "InEquiv",
+        "npex.synthesizer.strategy.InitPointerStrategyObject_341-341_3": "SemEquiv",
+        "SkipThrowStrategy_341-341_0": "InEquiv"
+    },
+    "verified_patches": [
+        "SkipSinkStatementStrategy_341-341_2",
+        "ReplacePointerStrategy_341_0",
+        "npex.synthesizer.strategy.InitPointerStrategyObject_341-341_3"
+    ],
+    "rejected_patches": [
+        "SkipThrowStrategy_341-341_1",
+        "SkipReturnStrategy_341-341_4",
+        "SkipThrowStrategy_341-341_0"
+    ]
+}

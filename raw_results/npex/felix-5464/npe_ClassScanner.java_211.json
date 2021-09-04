@@ -1,0 +1,8 @@
+{
+  "filepath": "org/apache/felix/scrplugin/helper/ClassScanner.java",
+  "line": 211,
+  "deref_field": "input",
+  "npe_class": "ClassScanner",
+  "npe_method": "processClass",
+  "fault_type": "NullAssign"
+}

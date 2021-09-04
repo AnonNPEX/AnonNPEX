@@ -1,0 +1,5 @@
+{
+    "contents": "if (templateMode != null) {\n    // logger.debug(\"using template mode {} for template '{}'\", templateMode, template);\n    final boolean useDecoupledLogic = templateMode.isMarkup() && configuration.useDecoupledLogic();\n}",
+    "original_filepath": "org/apache/sling/scripting/thymeleaf/internal/SlingResourceTemplateResolver.java",
+    "patched_lines": [126]
+}

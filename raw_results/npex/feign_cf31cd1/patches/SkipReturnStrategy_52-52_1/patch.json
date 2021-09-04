@@ -1,0 +1,5 @@
+{
+    "contents": "if (this.headers == null) {\n    return;\n}",
+    "original_filepath": "core/src/main/java/feign/Response.java",
+    "patched_lines": [54]
+}

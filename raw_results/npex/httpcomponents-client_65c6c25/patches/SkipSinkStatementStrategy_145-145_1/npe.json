@@ -1,0 +1,7 @@
+{
+    "filepath": "httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/MinimalHttpClient.java",
+    "line": 145,
+    "npe_method": "doExecute",
+    "deref_field": "context",
+    "npe_class": "MinimalHttpClient"
+}

@@ -1,0 +1,8 @@
+{
+  "filepath": "org/apache/commons/lang3/ClassUtils.java",
+  "line": 910,
+  "deref_field": "array[i]",
+  "npe_class": "ClassUtils",
+  "npe_method": "toClass",
+  "fault_type": "NullAssign"
+}

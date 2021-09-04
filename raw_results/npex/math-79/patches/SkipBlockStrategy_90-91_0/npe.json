@@ -1,0 +1,7 @@
+{
+    "filepath": "org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java",
+    "line": 91,
+    "npe_method": "assignPointsToClusters",
+    "deref_field": "cluster",
+    "npe_class": "KMeansPlusPlusClusterer"
+}

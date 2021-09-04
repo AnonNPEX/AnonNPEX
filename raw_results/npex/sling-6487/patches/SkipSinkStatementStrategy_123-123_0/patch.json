@@ -1,0 +1,5 @@
+{
+    "contents": "if (fakeProvideTemplateMode() != null) {\n    final org.thymeleaf.templatemode.TemplateMode templateMode = fakeProvideTemplateMode();// templateModeProvider.provideTemplateMode(resource);\n\n}",
+    "original_filepath": "org/apache/sling/scripting/thymeleaf/internal/SlingResourceTemplateResolver.java",
+    "patched_lines": [124]
+}

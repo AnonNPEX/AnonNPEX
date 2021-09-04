@@ -1,0 +1,7 @@
+{
+    "filepath": "ldap/model/src/main/java/org/apache/directory/api/ldap/model/entry/Value.java",
+    "line": 272,
+    "npe_method": "<init>",
+    "deref_field": "getSyntax",
+    "npe_class": "Value"
+}

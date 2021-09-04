@@ -1,0 +1,8 @@
+{
+  "filepath": "src/main/java/hu/oe/nik/szfmv/detector/classes/Detector.java",
+  "line": 52,
+  "deref_field": "worldObjects",
+  "npe_class": "Detector",
+  "npe_method": "getTheObjectsWhichAreInTheTriangle",
+  "fault_type": "NullAssign"
+}

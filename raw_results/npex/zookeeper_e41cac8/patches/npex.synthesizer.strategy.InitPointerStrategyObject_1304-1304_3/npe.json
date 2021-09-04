@@ -1,0 +1,7 @@
+{
+    "filepath": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ZooKeeperServer.java",
+    "line": 1304,
+    "npe_method": "processConnectRequest",
+    "deref_field": "connThrottle",
+    "npe_class": "ZooKeeperServer"
+}

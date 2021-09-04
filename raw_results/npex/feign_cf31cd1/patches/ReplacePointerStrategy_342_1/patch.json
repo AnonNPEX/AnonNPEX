@@ -1,0 +1,5 @@
+{
+    "contents": "(headers != null ? headers : new java.util.HashMap()).entrySet()",
+    "original_filepath": "core/src/main/java/feign/Response.java",
+    "patched_lines": [341]
+}

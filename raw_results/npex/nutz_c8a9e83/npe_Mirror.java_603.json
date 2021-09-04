@@ -1,0 +1,8 @@
+{
+  "filepath": "src/org/nutz/lang/Mirror.java",
+  "line": 603,
+  "deref_field": "klass",
+  "npe_class": "Mirror",
+  "npe_method": "getAnnotation",
+  "fault_type": "NullAssign"
+}

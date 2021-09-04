@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/com/squareup/javapoet/TypeName.java",
+    "line": 107,
+    "npe_method": "get",
+    "deref_field": "mirror",
+    "npe_class": "TypeName"
+}

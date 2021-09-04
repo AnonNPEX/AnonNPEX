@@ -1,0 +1,8 @@
+{
+  "filepath": "server/src/main/java/org/apache/iotdb/db/metadata/MTree.java",
+  "line": 1136,
+  "deref_field": "node",
+  "npe_class": "MTree",
+  "npe_method": "findChildNodePathInNextLevel",
+  "fault_type": "NullAssign"
+}

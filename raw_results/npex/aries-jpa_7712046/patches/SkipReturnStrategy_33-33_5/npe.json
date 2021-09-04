@@ -1,0 +1,7 @@
+{
+    "filepath": "jpa-blueprint/src/main/java/org/apache/aries/jpa/blueprint/impl/AnnotationScanner.java",
+    "line": 33,
+    "npe_method": "getJpaAnnotatedMembers",
+    "deref_field": "cl",
+    "npe_class": "AnnotationScanner"
+}

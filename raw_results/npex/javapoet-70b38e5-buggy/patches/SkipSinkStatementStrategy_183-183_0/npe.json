@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/com/squareup/javapoet/TypesTest.java",
+    "line": 183,
+    "npe_method": "wildcardMirrorSuperType",
+    "deref_field": "wildcard",
+    "npe_class": "TypesTest"
+}

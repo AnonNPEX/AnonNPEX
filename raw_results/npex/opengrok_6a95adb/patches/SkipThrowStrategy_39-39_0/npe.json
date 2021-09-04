@@ -1,0 +1,7 @@
+{
+    "filepath": "src/org/opensolaris/opengrok/analysis/IteratorReader.java",
+    "line": 39,
+    "npe_method": "<init>",
+    "deref_field": "iterable",
+    "npe_class": "IteratorReader"
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "org/apache/sling/security/impl/ContentDispositionFilter.java",
+    "line": 288,
+    "npe_method": "isJcrData",
+    "deref_field": "props",
+    "npe_class": "RewriterResponse"
+}

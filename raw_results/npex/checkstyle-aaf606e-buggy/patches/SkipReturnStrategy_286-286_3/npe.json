@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/com/puppycrawl/tools/checkstyle/checks/blocks/NeedBracesCheck.java",
+    "line": 286,
+    "npe_method": "isSingleLineFor",
+    "deref_field": "block",
+    "npe_class": "NeedBracesCheck"
+}

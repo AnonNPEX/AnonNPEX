@@ -1,0 +1,8 @@
+{
+  "filepath": "org/apache/commons/lang3/StringUtils.java",
+  "line": 3677,
+  "deref_field": "replacement_str",
+  "npe_class": "StringUtils",
+  "npe_method": "replaceEach",
+  "fault_type": "NullDereference"
+}

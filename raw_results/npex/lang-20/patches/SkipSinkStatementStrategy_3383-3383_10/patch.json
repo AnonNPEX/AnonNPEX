@@ -1,0 +1,5 @@
+{
+    "contents": "if (array[startIndex].toString() != null) {\n    java.lang.StringBuilder buf = new java.lang.StringBuilder((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + separator.length());\n}",
+    "original_filepath": "org/apache/commons/lang3/StringUtils.java",
+    "patched_lines": [3413]
+}

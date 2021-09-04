@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/hu/oe/nik/szfmv/visualization/Dashboard.java",
+    "line": 103,
+    "npe_method": "paintComponent",
+    "deref_field": "g",
+    "npe_class": "Dashboard"
+}

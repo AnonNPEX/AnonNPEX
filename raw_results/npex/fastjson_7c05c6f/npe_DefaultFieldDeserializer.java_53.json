@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "src/main/java/com/alibaba/fastjson/parser/deserializer/DefaultFieldDeserializer.java",
+  "line": 53,
+  "deref_field": "fieldValues",
+  "npe_class": "DefaultFieldDeserializer",
+  "npe_method": "parseField",
+  "fault_type": "Parameter"
+}

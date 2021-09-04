@@ -1,0 +1,7 @@
+{
+    "filepath": "org/apache/commons/lang3/ClassUtils.java",
+    "line": 911,
+    "npe_method": "toClass",
+    "deref_field": "o",
+    "npe_class": "ClassUtils"
+}

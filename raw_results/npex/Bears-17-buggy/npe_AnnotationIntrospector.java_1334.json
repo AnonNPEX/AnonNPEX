@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java",
+  "line": 1334,
+  "deref_field": "annotated",
+  "npe_class": "AnnotationIntrospector",
+  "npe_method": "_findAnnotation",
+  "fault_type": "Parameter"
+}

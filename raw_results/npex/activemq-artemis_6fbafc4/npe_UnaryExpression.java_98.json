@@ -1,0 +1,9 @@
+{
+  "filepath":
+    "src/main/java/org/apache/activemq/artemis/selector/filter/UnaryExpression.java",
+  "line": 98,
+  "deref_field": "inList",
+  "npe_class": "UnaryExpression$2",
+  "npe_method": "toString",
+  "fault_type": "NullAssign"
+}

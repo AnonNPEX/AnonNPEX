@@ -1,0 +1,8 @@
+{
+  "filepath": "core/src/main/java/feign/Response.java",
+  "line": 338,
+  "deref_field": "headers",
+  "npe_class": "Response",
+  "npe_method": "caseInsensitiveCopyOf",
+  "fault_type": "Parameter"
+}

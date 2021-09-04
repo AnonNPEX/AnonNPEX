@@ -1,0 +1,5 @@
+{
+    "contents": "if (_encoder.getType(element.getValue()) != null) {\n    final java.util.Map.Entry<?, ?> element = iter.next();\n    org.apache.qpid.proton.codec.TypeEncoding elementEncoding;\n    if (fixedKeyType == null) {\n        elementEncoding = _encoder.getType(element.getKey()).getEncoding(element.getKey());\n    } else {\n        elementEncoding = fixedKeyType.getEncoding(element.getKey());\n    }\n    len += elementEncoding.getConstructorSize() + elementEncoding.getValueSize(element.getKey());\n    elementEncoding = _encoder.getType(element.getValue()).getEncoding(element.getValue());\n    len += elementEncoding.getConstructorSize() + elementEncoding.getValueSize(element.getValue());\n}",
+    "original_filepath": "proton-j/src/main/java/org/apache/qpid/proton/codec/MapType.java",
+    "patched_lines": [84]
+}
