@@ -1,0 +1,14 @@
++ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- +
+| bug_id                 | label                    | detail                   | description                            | patch_id                                                               |
++ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- +
+| HikariCP-ce4ff92-buggy | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL |                                        | SkipThrowStrategy_198-198_0--2--2                                      |
+| HikariCP-ce4ff92-buggy | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL |                                        | npex.synthesizer.strategy.InitPointerStrategyObject_198-198_1--2--3--3 |
+| HikariCP-ce4ff92-buggy | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL |                                        | SkipSinkStatementStrategy_198-198_1--4--4                              |
+| HikariCP-ce4ff92-buggy | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL |                                        | ReplacePointerStrategyObject_198_0--3--5--5                            |
+| HikariCP-ce4ff92-buggy | LabelOverall.WC          | LabelDetail.MANUAL_WC    | correct w.r.t. testcase, but not class | SkipReturnStrategy_198-198_3--6--6                                     |
+| HikariCP-ce4ff92-buggy | LabelOverall.OVERFITTING | LabelDetail.TODO         |                                        | ReplaceEntireExpressionStrategyLiteral_198_3--7--7                     |
+| HikariCP-ce4ff92-buggy | LabelOverall.WC          | LabelDetail.MANUAL_WC    | correct but not method                 | ReplaceEntireExpressionStrategyLiteral_198_2--8--8                     |
+| HikariCP-ce4ff92-buggy | LabelOverall.TIMEOUT     | LabelDetail.TIMEOUT      |                                        | ReplacePointerStrategyVar_256_0--4--9--9                               |
+| HikariCP-ce4ff92-buggy | LabelOverall.WC          | LabelDetail.MANUAL_WC    |                                        | npex.synthesizer.strategy.InitPointerStrategyObject_198-198_2--10--10  |
+| HikariCP-ce4ff92-buggy | LabelOverall.WC          | LabelDetail.MANUAL_WC    |                                        | ReplacePointerStrategyObject_198_0--11--11                             |
++ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- +

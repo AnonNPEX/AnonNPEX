@@ -1,0 +1,14 @@
++ ----------------------------------------------------------------------------------------------------------------------------------- +
+| bug_id                 | label                    | detail                     | description | patch_id                             |
++ ----------------------------------------------------------------------------------------------------------------------------------- +
+| Activity-3d624a5-buggy | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipThrowStrategy_44-44_0            |
+| Activity-3d624a5-buggy | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | ReplaceEntireExpressionStrategy_44_2 |
+| Activity-3d624a5-buggy | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | SkipThrowStrategy_44-44_1            |
+| Activity-3d624a5-buggy | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | ReplaceEntireExpressionStrategy_44_4 |
+| Activity-3d624a5-buggy | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | SkipSinkStatementStrategy_44-44_3    |
+| Activity-3d624a5-buggy | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | ReplaceEntireExpressionStrategy_44_0 |
+| Activity-3d624a5-buggy | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | SkipReturnStrategy_44-44_4           |
+| Activity-3d624a5-buggy | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | ReplaceEntireExpressionStrategy_44_1 |
+| Activity-3d624a5-buggy | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | SkipThrowStrategy_44-44_2            |
+| Activity-3d624a5-buggy | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | ReplaceEntireExpressionStrategy_44_3 |
++ ----------------------------------------------------------------------------------------------------------------------------------- +

@@ -1,0 +1,17 @@
++ ---------------------------------------------------------------------------------------------------------------------- +
+| bug_id  | label                    | detail                       | description | patch_id                             |
++ ---------------------------------------------------------------------------------------------------------------------- +
+| math-70 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL     |             | SkipSinkStatementStrategy_66-66_0    |
+| math-70 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipBreakStrategy_89-86_2            |
+| math-70 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | ReplaceEntireExpressionStrategy_89_1 |
+| math-70 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipContinueStrategy_89-106_1        |
+| math-70 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL     |             | SkipSinkStatementStrategy_89-89_3    |
+| math-70 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | ReplaceEntireExpressionStrategy_89_0 |
+| math-70 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipReturnStrategy_66-66_1           |
+| math-70 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipBlockStrategy_87-106_0           |
+| math-70 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipReturnStrategy_66-66_2           |
+| math-70 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | ReplaceEntireExpressionStrategy_66_1 |
+| math-70 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | ReplaceEntireExpressionStrategy_66_0 |
+| math-70 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipReturnParam_79-89_5              |
+| math-70 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipReturnParam_79-89_4              |
++ ---------------------------------------------------------------------------------------------------------------------- +

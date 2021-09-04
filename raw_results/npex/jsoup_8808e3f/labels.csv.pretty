@@ -1,0 +1,25 @@
++ ---------------------------------------------------------------------------------------------------------------------------------------------------- +
+| bug_id        | label                    | detail                     | description | patch_id                                                       |
++ ---------------------------------------------------------------------------------------------------------------------------------------------------- +
+| jsoup_8808e3f | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | SkipReturnParam_11-11_2                                        |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipSinkStatementStrategy_11-11_0                              |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | ReplaceEntireExpressionStrategy_11_0                           |
+| jsoup_8808e3f | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | ReplacePointerStrategy_11_2                                    |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | ReplacePointerStrategy_11_1                                    |
+| jsoup_8808e3f | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | ReplaceEntireExpressionStrategy_11_8                           |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | ReplaceEntireExpressionStrategy_11_7                           |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | SkipReturnParam_11-11_1                                        |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | SkipReturnStrategy_530-530_2                                   |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipBlockStrategy_532-532_0                                    |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | SkipBlockStrategy_530-530_0                                    |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | SkipReturnStrategy_532-532_2                                   |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | ReplaceEntireExpressionStrategy_530_0                          |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | ReplacePointerStrategy_530_2                                   |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipReturnStrategy_530-530_3                                   |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | ReplacePointerStrategy_532_0                                   |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | ReplacePointerStrategy_530_1                                   |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | npex.synthesizer.strategy.InitPointerStrategyLiteral_532-532_4 |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipReturnStrategy_532-532_3                                   |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | ReplacePointerStrategy_532_1                                   |
+| jsoup_8808e3f | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | npex.synthesizer.strategy.InitPointerStrategyLiteral_532-532_5 |
++ ---------------------------------------------------------------------------------------------------------------------------------------------------- +

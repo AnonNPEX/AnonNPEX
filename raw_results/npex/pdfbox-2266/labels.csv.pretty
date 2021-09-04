@@ -1,0 +1,8 @@
++ --------------------------------------------------------------------------------------------------------------------------- +
+| bug_id      | label                    | detail                       | description | patch_id                              |
++ --------------------------------------------------------------------------------------------------------------------------- +
+| pdfbox-2266 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL     |             | SkipSinkStatementStrategy_130-130_1   |
+| pdfbox-2266 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipReturnStrategy_130-130_2          |
+| pdfbox-2266 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_130-130_0           |
+| pdfbox-2266 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | ReplaceEntireExpressionStrategy_130_0 |
++ --------------------------------------------------------------------------------------------------------------------------- +

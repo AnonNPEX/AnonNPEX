@@ -1,0 +1,17 @@
++ ---------------------------------------------------------------------------------------------------------------------------- +
+| bug_id        | label                    | detail                     | description | patch_id                               |
++ ---------------------------------------------------------------------------------------------------------------------------- +
+| iotdb_97ca7e0 | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | ReplaceEntireExpressionStrategy_1136_0 |
+| iotdb_97ca7e0 | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | SkipBlockStrategy_1136-1136_0          |
+| iotdb_97ca7e0 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | ReplaceEntireExpressionStrategy_1136_1 |
+| iotdb_97ca7e0 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | SkipReturnParam_1127-1136_10           |
+| iotdb_97ca7e0 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipThrowStrategy_1136-1136_2          |
+| iotdb_97ca7e0 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipThrowStrategy_1136-1136_3          |
+| iotdb_97ca7e0 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipThrowStrategy_1136-1136_5          |
+| iotdb_97ca7e0 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipThrowStrategy_1136-1136_1          |
+| iotdb_97ca7e0 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipThrowStrategy_1136-1136_8          |
+| iotdb_97ca7e0 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipThrowStrategy_1136-1136_6          |
+| iotdb_97ca7e0 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipThrowStrategy_1136-1136_7          |
+| iotdb_97ca7e0 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipThrowStrategy_1136-1136_4          |
+| iotdb_97ca7e0 | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | ReplaceEntireExpressionStrategy_1136_2 |
++ ---------------------------------------------------------------------------------------------------------------------------- +

@@ -1,0 +1,12 @@
++ ------------------------------------------------------------------------------------------------------------------------------------------ +
+| bug_id                       | label                    | detail                     | description | patch_id                              |
++ ------------------------------------------------------------------------------------------------------------------------------------------ +
+| spring-hateoas-48749e7-buggy | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipReturnParam_141-145_2             |
+| spring-hateoas-48749e7-buggy | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | SkipReturnParam_141-145_1             |
+| spring-hateoas-48749e7-buggy | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | ReplaceEntireExpressionStrategy_145_1 |
+| spring-hateoas-48749e7-buggy | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipSinkStatementStrategy_145-145_0   |
+| spring-hateoas-48749e7-buggy | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | ReplaceEntireExpressionStrategy_145_3 |
+| spring-hateoas-48749e7-buggy | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | ReplaceEntireExpressionStrategy_145_0 |
+| spring-hateoas-48749e7-buggy | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | ReplaceEntireExpressionStrategy_145_4 |
+| spring-hateoas-48749e7-buggy | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | ReplaceEntireExpressionStrategy_145_2 |
++ ------------------------------------------------------------------------------------------------------------------------------------------ +

@@ -1,0 +1,11 @@
++ ------------------------------------------------------------------------------------------------------------------------ +
+| bug_id     | label                    | detail                     | description | patch_id                              |
++ ------------------------------------------------------------------------------------------------------------------------ +
+| sling-4982 | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | ReplaceEntireExpressionStrategy_288_2 |
+| sling-4982 | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | SkipSinkStatementStrategy_288-288_1   |
+| sling-4982 | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | SkipReturnStrategy_288-288_2          |
+| sling-4982 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | ReplaceEntireExpressionStrategy_288_0 |
+| sling-4982 | LabelOverall.OVERFITTING | LabelDetail.TODO           |             | SkipReturnStrategy_288-288_3          |
+| sling-4982 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | ReplaceEntireExpressionStrategy_288_1 |
+| sling-4982 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipBlockStrategy_287-288_0           |
++ ------------------------------------------------------------------------------------------------------------------------ +

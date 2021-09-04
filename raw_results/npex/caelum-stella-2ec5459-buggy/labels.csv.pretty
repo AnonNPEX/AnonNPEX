@@ -1,0 +1,14 @@
++ -------------------------------------------------------------------------------------------------------------------------------------------------------------------- +
+| bug_id                      | label                    | detail                       | description | patch_id                                                       |
++ -------------------------------------------------------------------------------------------------------------------------------------------------------------------- +
+| caelum-stella-2ec5459-buggy | LabelOverall.WC          | LabelDetail.MANUAL_WC        |             | ReplaceEntireExpressionStrategy_125_4                          |
+| caelum-stella-2ec5459-buggy | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL     |             | SkipBlockStrategy_125-125_0                                    |
+| caelum-stella-2ec5459-buggy | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | ReplaceEntireExpressionStrategy_125_5                          |
+| caelum-stella-2ec5459-buggy | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipReturnParam_121-125_4                                      |
+| caelum-stella-2ec5459-buggy | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | ReplacePointerStrategy_125_0                                   |
+| caelum-stella-2ec5459-buggy | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | SkipReturnParam_121-125_3                                      |
+| caelum-stella-2ec5459-buggy | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | ReplacePointerStrategy_125_1                                   |
+| caelum-stella-2ec5459-buggy | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | npex.synthesizer.strategy.InitPointerStrategyLiteral_125-125_7 |
+| caelum-stella-2ec5459-buggy | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipThrowStrategy_125-125_1                                    |
+| caelum-stella-2ec5459-buggy | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | npex.synthesizer.strategy.InitPointerStrategyLiteral_125-125_8 |
++ -------------------------------------------------------------------------------------------------------------------------------------------------------------------- +

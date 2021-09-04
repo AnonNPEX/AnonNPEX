@@ -1,0 +1,18 @@
++ -------------------------------------------------------------------------------------------------------------------------------------------------- +
+| bug_id  | label                    | detail                       | description | patch_id                                                         |
++ -------------------------------------------------------------------------------------------------------------------------------------------------- +
+| lang-39 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | ReplaceEntireExpressionStrategy_3677_6                           |
+| lang-39 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL     |             | SkipBlockStrategy_3676-3678_0                                    |
+| lang-39 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | SkipContinueStrategy_3677-3678_1                                 |
+| lang-39 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_3677-3677_2                                    |
+| lang-39 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipReturnStrategy_3677-3677_7                                   |
+| lang-39 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | ReplaceEntireExpressionStrategy_3677_7                           |
+| lang-39 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL     |             | SkipSinkStatementStrategy_3677-3677_5                            |
+| lang-39 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | SkipBreakStrategy_3677-3675_4                                    |
+| lang-39 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_3677-3677_3                                    |
+| lang-39 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | ReplacePointerStrategy_3677_0                                    |
+| lang-39 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | npex.synthesizer.strategy.InitPointerStrategyLiteral_3677-3677_8 |
+| lang-39 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | npex.synthesizer.strategy.InitPointerStrategyLiteral_3677-3677_9 |
+| lang-39 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipReturnStrategy_3677-3677_6                                   |
+| lang-39 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | ReplacePointerStrategy_3677_1                                    |
++ -------------------------------------------------------------------------------------------------------------------------------------------------- +

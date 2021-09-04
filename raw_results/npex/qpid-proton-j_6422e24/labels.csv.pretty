@@ -1,0 +1,34 @@
++ ------------------------------------------------------------------------------------------------------------------------------------- +
+| bug_id                | label                    | detail                       | description | patch_id                              |
++ ------------------------------------------------------------------------------------------------------------------------------------- +
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | ReplaceEntireExpressionStrategy_526_0 |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_520-520_2           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_524-524_0           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_524-524_1           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipReturnStrategy_524-524_7          |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_524-524_3           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL     |             | SkipSinkStatementStrategy_520-520_5   |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_520-520_0           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_520-520_3           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_520-520_4           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipReturnStrategy_520-520_6          |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | ReplaceEntireExpressionStrategy_526_1 |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_524-524_4           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_520-520_1           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipSinkStatementStrategy_524-524_5   |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipReturnStrategy_524-524_6          |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipReturnStrategy_520-520_7          |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_524-524_2           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipSinkStatementStrategy_633-633_6   |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipBlockStrategy_621-633_0           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | ReplaceEntireExpressionStrategy_633_1 |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_633-633_3           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_633-633_4           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | ReplaceEntireExpressionStrategy_520_0 |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipReturnStrategy_633-633_8          |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_633-633_1           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_633-633_2           |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | ReplaceEntireExpressionStrategy_633_0 |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipReturnStrategy_633-633_7          |
+| qpid-proton-j_6422e24 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_633-633_5           |
++ ------------------------------------------------------------------------------------------------------------------------------------- +

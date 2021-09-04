@@ -1,0 +1,15 @@
++ ----------------------------------------------------------------------------------------------------------------------------- +
+| bug_id         | label                    | detail                     | description | patch_id                               |
++ ----------------------------------------------------------------------------------------------------------------------------- +
+| Bears-17-buggy | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | SkipReturnParam_1336-1336_1            |
+| Bears-17-buggy | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipSinkStatementStrategy_1336-1336_0  |
+| Bears-17-buggy | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | ReplaceEntireExpressionStrategy_1336_0 |
+| Bears-17-buggy | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipThrowStrategy_556-556_4            |
+| Bears-17-buggy | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipThrowStrategy_556-556_0            |
+| Bears-17-buggy | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipSinkStatementStrategy_556-556_5    |
+| Bears-17-buggy | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipThrowStrategy_556-556_3            |
+| Bears-17-buggy | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipThrowStrategy_556-556_1            |
+| Bears-17-buggy | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL   |             | SkipThrowStrategy_556-556_2            |
+| Bears-17-buggy | LabelOverall.WC          | LabelDetail.MANUAL_WC      |             | SkipReturnParam_556-556_6              |
+| Bears-17-buggy | LabelOverall.WC          | LabelDetail.MANUAL_WC      |             | ReplaceEntireExpressionStrategy_556_0  |
++ ----------------------------------------------------------------------------------------------------------------------------- +

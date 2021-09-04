@@ -1,0 +1,12 @@
++ ----------------------------------------------------------------------------------------------------------------------------------------------- +
+| bug_id      | label                    | detail                   | description | patch_id                                                      |
++ ----------------------------------------------------------------------------------------------------------------------------------------------- +
+| pdfbox-2951 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL |             | SkipSinkStatementStrategy_106-106_0                           |
+| pdfbox-2951 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL    |             | SkipReturnStrategy_106-106_3                                  |
+| pdfbox-2951 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL    |             | SkipReturnStrategy_106-106_2                                  |
+| pdfbox-2951 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL    |             | ReplaceEntireExpressionStrategy_106_4                         |
+| pdfbox-2951 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL    |             | ReplaceEntireExpressionStrategy_106_3                         |
+| pdfbox-2951 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL    |             | ReplaceEntireExpressionStrategy_106_0                         |
+| pdfbox-2951 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL    |             | ReplacePointerStrategy_106_1                                  |
+| pdfbox-2951 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL    |             | npex.synthesizer.strategy.InitPointerStrategyObject_106-106_1 |
++ ----------------------------------------------------------------------------------------------------------------------------------------------- +

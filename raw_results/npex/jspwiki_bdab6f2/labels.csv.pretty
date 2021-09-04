@@ -1,0 +1,17 @@
++ ------------------------------------------------------------------------------------------------------------------------------------------------------ +
+| bug_id          | label                    | detail                       | description | patch_id                                                     |
++ ------------------------------------------------------------------------------------------------------------------------------------------------------ +
+| jspwiki_bdab6f2 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipReturnStrategy_78-78_6                                   |
+| jspwiki_bdab6f2 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | ReplacePointerStrategy_78_0                                  |
+| jspwiki_bdab6f2 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipReturnStrategy_78-78_5                                   |
+| jspwiki_bdab6f2 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | npex.synthesizer.strategy.InitPointerStrategyLiteral_78-78_7 |
+| jspwiki_bdab6f2 | LabelOverall.OVERFITTING | LabelDetail.COMPILE_FAIL     |             | SkipBlockStrategy_77-84_0                                    |
+| jspwiki_bdab6f2 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipThrowStrategy_78-78_2                                    |
+| jspwiki_bdab6f2 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | SkipSinkStatementStrategy_78-78_4                            |
+| jspwiki_bdab6f2 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL        |             | ReplaceEntireExpressionStrategy_78_7                         |
+| jspwiki_bdab6f2 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | ReplaceEntireExpressionStrategy_78_6                         |
+| jspwiki_bdab6f2 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | ReplacePointerStrategy_78_1                                  |
+| jspwiki_bdab6f2 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | SkipBreakStrategy_78-75_3                                    |
+| jspwiki_bdab6f2 | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | SkipContinueStrategy_78-76_1                                 |
+| jspwiki_bdab6f2 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | npex.synthesizer.strategy.InitPointerStrategyLiteral_78-78_8 |
++ ------------------------------------------------------------------------------------------------------------------------------------------------------ +

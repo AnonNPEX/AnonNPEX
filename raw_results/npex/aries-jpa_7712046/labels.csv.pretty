@@ -1,0 +1,18 @@
++ ------------------------------------------------------------------------------------------------------------------------------ +
+| bug_id            | label                    | detail                     | description | patch_id                             |
++ ------------------------------------------------------------------------------------------------------------------------------ +
+| aries-jpa_7712046 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipThrowStrategy_39-39_0            |
+| aries-jpa_7712046 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipSinkStatementStrategy_39-39_1    |
+| aries-jpa_7712046 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipReturnParam_39-39_2              |
+| aries-jpa_7712046 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | ReplaceEntireExpressionStrategy_39_0 |
+| aries-jpa_7712046 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipReturnParam_31-32_2              |
+| aries-jpa_7712046 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipThrowStrategy_32-32_0            |
+| aries-jpa_7712046 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipSinkStatementStrategy_32-32_1    |
+| aries-jpa_7712046 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | ReplaceEntireExpressionStrategy_32_0 |
+| aries-jpa_7712046 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | ReplaceEntireExpressionStrategy_39_2 |
+| aries-jpa_7712046 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipBlockStrategy_33-33_0            |
+| aries-jpa_7712046 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipThrowStrategy_33-33_2            |
+| aries-jpa_7712046 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipContinueStrategy_33-33_1         |
+| aries-jpa_7712046 | LabelOverall.OVERFITTING | LabelDetail.TEST_FAIL      |             | SkipReturnStrategy_33-33_5           |
+| aries-jpa_7712046 | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT |             | SkipBreakStrategy_33-32_3            |
++ ------------------------------------------------------------------------------------------------------------------------------ +
