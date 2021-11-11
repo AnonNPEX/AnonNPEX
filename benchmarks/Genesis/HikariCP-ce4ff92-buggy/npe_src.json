@@ -1,0 +1,8 @@
+{
+    "filepath": "src/main/java/com/zaxxer/hikari/pool/ProxyConnection.java",
+    "line": 256,
+    "deref_field": "null",
+    "npe_class": "ProxyConnection",
+    "npe_method": "close",
+    "is_original": true
+}
