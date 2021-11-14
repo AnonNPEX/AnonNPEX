@@ -1,8 +1,0 @@
-{
-  "filepath": "org/apache/commons/math3/geometry/euclidean/threed/Line.java",
-  "line": 128,
-  "deref_field": "point",
-  "npe_class": "Line",
-  "npe_method": "toSubSpace",
-  "fault_type": "Parameter"
-}

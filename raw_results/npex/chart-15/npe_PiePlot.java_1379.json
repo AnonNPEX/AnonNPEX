@@ -1,8 +1,0 @@
-{
-  "filepath": "org/jfree/chart/plot/PiePlot.java",
-  "line": 1379,
-  "deref_field": "dataset",
-  "npe_class": "PiePlot",
-  "npe_method": "getMaximumExplodePercent",
-  "fault_type": "NullAssign"
-}

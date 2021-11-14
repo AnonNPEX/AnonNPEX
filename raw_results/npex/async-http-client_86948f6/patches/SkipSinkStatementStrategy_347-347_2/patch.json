@@ -1,5 +1,0 @@
-{
-    "contents": "if (this.uri != null) {\n    // reset existing query\n    java.lang.String query = this.uri.getQuery();\n}",
-    "original_filepath": "client/src/main/java/org/asynchttpclient/RequestBuilderBase.java",
-    "patched_lines": [347]
-}

@@ -1,8 +1,0 @@
-{
-  "filepath": "src/org/traccar/protocol/SuntechProtocolDecoder.java",
-  "line": 47,
-  "deref_field": "channel",
-  "npe_class": "SuntechProtocolDecoder",
-  "npe_method": "decode9",
-  "fault_type": "Parameter"
-}

@@ -1,5 +1,0 @@
-{
-    "contents": "if (cc == null) {\n    throw new java.lang.NoSuchFieldException();\n}",
-    "original_filepath": "src/org/nutz/lang/Mirror.java",
-    "patched_lines": [616]
-}

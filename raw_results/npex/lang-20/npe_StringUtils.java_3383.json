@@ -1,8 +1,0 @@
-{
-  "filepath": "org/apache/commons/lang3/StringUtils.java",
-  "line": 3383,
-  "deref_field": "toString",
-  "npe_class": "StringUtils",
-  "npe_method": "join",
-  "fault_type": "NullDereference"
-}

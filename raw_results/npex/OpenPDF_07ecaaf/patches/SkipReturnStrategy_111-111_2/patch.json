@@ -1,5 +1,0 @@
-{
-    "contents": "if (cipher == null) {\n    return new byte[]();\n}",
-    "original_filepath": "openpdf/src/main/java/com/lowagie/text/pdf/StandardDecryption.java",
-    "patched_lines": [112]
-}

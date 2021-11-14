@@ -471,7 +471,7 @@ public void returnObject(final K key, final T obj) {
     final org.apache.commons.pool2.impl.GenericKeyedObjectPool<K, T>.ObjectDeque<T> objectDeque = poolMap.get(key);
     /* NPEX_PATCH_BEGINS */
     if (objectDeque == null) {
-        throw new java.lang.Exception();
+        throw new java.lang.IllegalStateException();
     }
     final org.apache.commons.pool2.PooledObject<T> p = objectDeque.getAllObjects().get(new org.apache.commons.pool2.impl.BaseGenericObjectPool.IdentityWrapper<>(obj));
     if (p == null) {

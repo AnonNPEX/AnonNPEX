@@ -1,5 +1,0 @@
-{
-    "contents": "if (this.parameters != null) {\n    java.util.Iterator<java.lang.String> it = this.parameters.keySet().iterator();\n}",
-    "original_filepath": "ninja-core/src/main/java/ninja/Route.java",
-    "patched_lines": [139]
-}

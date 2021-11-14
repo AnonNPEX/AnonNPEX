@@ -1,7 +1,0 @@
-{
-    "filepath": "fop-core/src/main/java/org/apache/fop/render/AbstractRenderer.java",
-    "line": 527,
-    "npe_method": "renderMainReference",
-    "deref_field": "currentPageViewport",
-    "npe_class": "AbstractRenderer"
-}

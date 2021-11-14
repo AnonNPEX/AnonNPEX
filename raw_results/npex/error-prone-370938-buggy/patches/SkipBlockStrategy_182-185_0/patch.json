@@ -1,5 +1,0 @@
-{
-    "contents": "if (method != null) {\n    com.sun.source.tree.IdentifierTree identifier = ((com.sun.source.tree.IdentifierTree) (methodSelect));\n    com.sun.tools.javac.code.Symbol.MethodSymbol method = context.resolver.resolveMethod(node, identifier.getName());\n    return bindSelect(computeBase(context, method), method);\n}",
-    "original_filepath": "core/src/main/java/com/google/errorprone/bugpatterns/threadsafety/GuardedByBinder.java",
-    "patched_lines": [182]
-}

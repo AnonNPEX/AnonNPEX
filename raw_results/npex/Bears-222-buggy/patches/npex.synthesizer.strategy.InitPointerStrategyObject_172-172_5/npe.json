@@ -1,7 +1,0 @@
-{
-    "filepath": "jgrapht-core/src/main/java/org/jgrapht/generate/WattsStrogatzGraphGenerator.java",
-    "line": 172,
-    "npe_method": "generateGraph",
-    "deref_field": "viAdj",
-    "npe_class": "WattsStrogatzGraphGenerator"
-}

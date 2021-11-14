@@ -1,7 +1,0 @@
-{
-    "filepath": "org/apache/pdfbox/pdmodel/graphics/color/PDColorSpaceFactory.java",
-    "line": 253,
-    "npe_method": "createColorSpace",
-    "deref_field": "iccData",
-    "npe_class": "PDColorSpaceFactory"
-}

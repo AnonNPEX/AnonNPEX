@@ -1,5 +1,0 @@
-{
-    "contents": "if (channel != null) {\n    org.traccar.DeviceSession deviceSession = getDeviceSession(channel, remoteAddress, values[index++]);\n}",
-    "original_filepath": "src/org/traccar/protocol/SuntechProtocolDecoder.java",
-    "patched_lines": [59]
-}

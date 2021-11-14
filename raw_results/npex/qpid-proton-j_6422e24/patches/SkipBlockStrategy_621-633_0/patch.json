@@ -1,5 +1,0 @@
-{
-    "contents": "if (tpSession != null) {\n    org.apache.qpid.proton.engine.impl.TransportDelivery tpDelivery = delivery.getTransportDelivery();\n    org.apache.qpid.proton.amqp.transport.Disposition disposition = new org.apache.qpid.proton.amqp.transport.Disposition();\n    disposition.setFirst(tpDelivery.getDeliveryId());\n    disposition.setLast(tpDelivery.getDeliveryId());\n    disposition.setRole(org.apache.qpid.proton.amqp.transport.Role.SENDER);\n    disposition.setSettled(delivery.isSettled());\n    if (delivery.isSettled()) {\n        tpDelivery.settled();\n    }\n    disposition.setState(delivery.getLocalState());\n    writeFrame(tpSession.getLocalChannel(), disposition, null, null);\n}",
-    "original_filepath": "proton-j/src/main/java/org/apache/qpid/proton/engine/impl/TransportImpl.java",
-    "patched_lines": [587]
-}

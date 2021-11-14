@@ -1,7 +1,0 @@
-{
-    "filepath": "org/apache/felix/scrplugin/helper/ClassScanner.java",
-    "line": 211,
-    "npe_method": "processClass",
-    "deref_field": "input",
-    "npe_class": "ClassScanner"
-}

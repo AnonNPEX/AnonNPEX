@@ -56,7 +56,7 @@ public final class SchemaYamlSwapper implements YamlSwapper<YamlSchema, Sharding
     
 private org.apache.shardingsphere.infra.metadata.schema.ShardingSphereSchema convertSchema(final org.apache.shardingsphere.governance.core.yaml.config.schema.YamlSchema schema) {
     return /* NPEX_PATCH_BEGINS */
-    new org.apache.shardingsphere.infra.metadata.schema.ShardingSphereSchema(schema.getTables() != null ? schema.getTables().entrySet().stream().collect(java.util.stream.Collectors.toMap(java.util.Map.Entry::getKey, ( entry) -> convertTable(entry.getValue()), ( oldValue, currentValue) -> oldValue, java.util.LinkedHashMap::new)) : new java.util.LinkedHashMap());
+    new org.apache.shardingsphere.infra.metadata.schema.ShardingSphereSchema(schema.getTables() != null ? schema.getTables().entrySet().stream().collect(java.util.stream.Collectors.toMap(java.util.Map.Entry::getKey, ( entry) -> convertTable(entry.getValue()), ( oldValue, currentValue) -> oldValue, java.util.LinkedHashMap::new)) : null);
 }
     
     private TableMetaData convertTable(final YamlTableMetaData table) {

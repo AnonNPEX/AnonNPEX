@@ -109,7 +109,7 @@ public class StandardDecryption {
 public byte[] finish() {
     if (aes) {
         /* NPEX_PATCH_BEGINS */
-        return cipher != null ? cipher.doFinal() : new byte[]{  };
+        return cipher != null ? cipher.doFinal() : null;
     } else {
         return null;
     }

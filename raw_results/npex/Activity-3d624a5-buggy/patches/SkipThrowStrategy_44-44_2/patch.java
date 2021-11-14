@@ -39,7 +39,7 @@ public void handleEvent(org.activiti.engine.impl.persistence.entity.EventSubscri
     }
     /* NPEX_PATCH_BEGINS */
     if (execution.getActivity() == null) {
-        throw new java.lang.RuntimeException();
+        throw new org.activiti.engine.ActivitiException("");
     }
     if (!execution.getActivity().equals(activity)) {
         execution.setActivity(activity);

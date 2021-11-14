@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/jsoup/nodes/Attribute.java",
-    "line": 88,
-    "npe_method": "setValue",
-    "deref_field": "parent",
-    "npe_class": "Attribute"
-}

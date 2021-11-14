@@ -1330,7 +1330,7 @@ public org.apache.commons.lang3.text.StrBuilder appendFixedWidthPadRight(java.la
         ensureCapacity(size + width);
         java.lang.String str = (obj == null) ? getNullText() : obj.toString();
         int strLen = /* NPEX_PATCH_BEGINS */
-        (str != null ? str : "null").length();
+        (str != null ? str : "").length();
         if (strLen >= width) {
             str.getChars(0, width, buffer, size);
         } else {

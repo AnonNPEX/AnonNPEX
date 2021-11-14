@@ -68,7 +68,7 @@ public static org.nutz.http.Sender create(org.nutz.http.Request request) {
     if (request.isPost() || request.isPut()) {
         /* NPEX_PATCH_BEGINS */
         if (request.getParams() == null) {
-            throw new java.lang.Exception();
+            throw new java.lang.IllegalStateException();
         }
         for (java.lang.Object val : request.getParams().values()) {
             if ((val instanceof java.io.File) || (val instanceof java.io.File[])) {

@@ -69,6 +69,6 @@ public interface ColumnType {
 
 public default boolean compare(int rowNumber, tech.tablesaw.columns.Column<?> temp, tech.tablesaw.columns.Column<?> original) {
     /* NPEX_PATCH_BEGINS */
-    return original.get(rowNumber) != null ? original.get(rowNumber).equals(temp.get(temp.size() - 1)) : true;
+    return original.get(rowNumber) != null ? original.get(rowNumber).equals(temp.get(temp.size() - 1)) : temp.get(temp.size() - 1) == null;
 }
 }

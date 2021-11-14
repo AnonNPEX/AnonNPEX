@@ -3700,7 +3700,7 @@ private static java.lang.String replaceEach(java.lang.String text, java.lang.Str
     for (int i = 0; i < searchList.length; i++) {
         java.lang.String replacement_str = replacementList[i];
         int greater = /* NPEX_PATCH_BEGINS */
-        (replacement_str != null ? replacement_str : "null").length() - searchList[i].length();
+        (replacement_str != null ? replacement_str : "").length() - searchList[i].length();
         if (greater > 0) {
             increase += 3 * greater;// assume 3 matches
 

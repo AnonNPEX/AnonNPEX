@@ -1,5 +1,0 @@
-{
-    "contents": "if (a == null) {\n    throw new java.lang.NoSuchFieldException();\n}",
-    "original_filepath": "src/main/java/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java",
-    "patched_lines": [556]
-}

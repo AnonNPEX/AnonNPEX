@@ -68,7 +68,7 @@ public class PDActionURI extends PDAction
 public java.lang.String getURI() {
     /* NPEX_PATCH_BEGINS */
     if (((org.apache.pdfbox.cos.COSString) (action.getDictionaryObject(org.apache.pdfbox.cos.COSName.URI))) == null) {
-        return "";
+        return "null";
     }
     return new java.lang.String(((org.apache.pdfbox.cos.COSString) (action.getDictionaryObject(org.apache.pdfbox.cos.COSName.URI))).getBytes(), org.apache.pdfbox.util.Charsets.UTF_8);
 }

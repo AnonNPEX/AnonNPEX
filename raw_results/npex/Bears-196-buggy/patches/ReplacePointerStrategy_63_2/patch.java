@@ -61,7 +61,7 @@ public T convert(java.lang.String value, org.apache.tamaya.spi.ConversionContext
     }
     try {
         return ((T) (factory.invoke(null, /* NPEX_PATCH_BEGINS */
-        (value != null ? value : "").toUpperCase(java.util.Locale.ENGLISH))));
+        (value != null ? value : "NULL").toUpperCase(java.util.Locale.ENGLISH))));
     } catch (java.lang.reflect.InvocationTargetException | java.lang.IllegalAccessException e) {
         LOG.log(java.util.logging.Level.FINEST, (("Invalid enum createValue '" + value) + "' for ") + enumType.getName(), e);
     }

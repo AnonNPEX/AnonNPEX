@@ -93,7 +93,7 @@ public class Attribute implements Map.Entry<String, String>, Cloneable  {
 public java.lang.String setValue(java.lang.String val) {
     /* NPEX_PATCH_BEGINS */
     if (parent == null) {
-        return "null";
+        return null;
     }
     java.lang.String oldVal = parent.get(this.key);
     if (parent != null) {

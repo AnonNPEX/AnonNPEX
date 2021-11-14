@@ -1,5 +1,0 @@
-{
-    "contents": "(currentAuthResult != null ? currentAuthResult : new org.apache.shardingsphere.proxy.frontend.engine.AuthenticationResult()).getUsername()",
-    "original_filepath": "shardingsphere-proxy/shardingsphere-proxy-frontend/shardingsphere-proxy-frontend-postgresql/src/main/java/org/apache/shardingsphere/proxy/frontend/postgresql/auth/PostgreSQLAuthenticationEngine.java",
-    "patched_lines": [106]
-}

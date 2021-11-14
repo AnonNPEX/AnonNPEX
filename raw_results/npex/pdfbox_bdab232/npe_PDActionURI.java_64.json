@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/action/PDActionURI.java",
-  "line": 64,
-  "deref_field": "getDictionaryObject",
-  "npe_class": "PDActionURI",
-  "npe_method": "getURI",
-  "fault_type": "NullDereference"
-}

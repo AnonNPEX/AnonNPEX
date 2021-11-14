@@ -1,7 +1,0 @@
-{
-    "filepath": "org/apache/pdfbox/pdmodel/common/PDStream.java",
-    "line": 254,
-    "npe_method": "createInputStream",
-    "deref_field": "filters",
-    "npe_class": "PDStream"
-}

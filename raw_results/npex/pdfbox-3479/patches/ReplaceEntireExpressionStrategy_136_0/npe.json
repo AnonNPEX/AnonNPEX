@@ -1,7 +1,0 @@
-{
-    "filepath": "org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java",
-    "line": 136,
-    "npe_method": "setAppearanceValue",
-    "deref_field": "rect",
-    "npe_class": "AppearanceGeneratorHelper"
-}

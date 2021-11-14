@@ -1,8 +1,0 @@
-{
-  "filepath": "org/apache/pdfbox/pdmodel/graphics/color/PDPattern.java",
-  "line": 130,
-  "deref_field": "shading",
-  "npe_class": "PDPattern",
-  "npe_method": "toPaint",
-  "fault_type": "NullAssign"
-}

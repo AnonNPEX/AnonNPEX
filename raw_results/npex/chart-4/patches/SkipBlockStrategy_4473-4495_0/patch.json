@@ -1,5 +1,0 @@
-{
-    "contents": "if (r != null) {\n    org.jfree.chart.renderer.xy.XYItemRenderer r = getRendererForDataset(d);\n    if (isDomainAxis) {\n        if (r != null) {\n            result = org.jfree.data.Range.combine(result, r.findDomainBounds(d));\n        } else {\n            result = org.jfree.data.Range.combine(result, org.jfree.data.general.DatasetUtilities.findDomainBounds(d));\n        }\n    } else if (r != null) {\n        result = org.jfree.data.Range.combine(result, r.findRangeBounds(d));\n    } else {\n        result = org.jfree.data.Range.combine(result, org.jfree.data.general.DatasetUtilities.findRangeBounds(d));\n    }\n    java.util.Collection c = r.getAnnotations();\n    java.util.Iterator i = c.iterator();\n    while (i.hasNext()) {\n        org.jfree.chart.annotations.XYAnnotation a = ((org.jfree.chart.annotations.XYAnnotation) (i.next()));\n        if (a instanceof org.jfree.chart.annotations.XYAnnotationBoundsInfo) {\n            includedAnnotations.add(a);\n        }\n    } \n}",
-    "original_filepath": "org/jfree/chart/plot/XYPlot.java",
-    "patched_lines": [4475]
-}

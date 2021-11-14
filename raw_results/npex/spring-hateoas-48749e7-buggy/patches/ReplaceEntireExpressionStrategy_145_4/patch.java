@@ -144,8 +144,8 @@ public boolean equals(java.lang.Object obj) {
         return true;
     }
     java.lang.Class<?> thisClass = this.getClass();
-    /* NPEX_PATCH_BEGINS */
-    if (obj != null ? !obj.getClass().equals(thisClass) : true) {
+    if (/* NPEX_PATCH_BEGINS */
+    !(obj != null ? obj.getClass().equals(thisClass) : thisClass == null)) {
         return false;
     }
     org.springframework.hateoas.ResourceSupport that = ((org.springframework.hateoas.ResourceSupport) (obj));

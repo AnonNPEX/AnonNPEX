@@ -1148,7 +1148,7 @@ private void findChildNodePathInNextLevel(org.apache.iotdb.db.metadata.mnode.MNo
             findChildNodePathInNextLevel(node.getChild(nodeReg), nodes, idx + 1, (parent + node.getName()) + org.apache.iotdb.db.conf.IoTDBConstant.PATH_SEPARATOR, res, length);
         }
     } else if (/* NPEX_PATCH_BEGINS */
-    (node != null ? node.getChildren() : new java.util.HashMap()).size() > 0) {
+    (node != null ? node.getChildren() : java.util.Collections.emptyMap()).size() > 0) {
         for (org.apache.iotdb.db.metadata.mnode.MNode child : node.getChildren().values()) {
             if (!java.util.regex.Pattern.matches(nodeReg.replace("*", ".*"), child.getName())) {
                 continue;

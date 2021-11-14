@@ -1,8 +1,0 @@
-{
-  "filepath": "src/main/java/org/jsoup/safety/Whitelist.java",
-  "line": 532,
-  "deref_field": "value",
-  "npe_class": "Whitelist",
-  "npe_method": "testValidProtocol",
-  "fault_type": "NullAssign"
-}

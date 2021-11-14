@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "core/src/main/java/com/google/errorprone/bugpatterns/threadsafety/GuardedByBinder.java",
-  "line": 183,
-  "deref_field": "resolveMethod",
-  "npe_class": "GuardedByBinder$2",
-  "npe_method": "visitMethodInvocation",
-  "fault_type": "NullAssign"
-}

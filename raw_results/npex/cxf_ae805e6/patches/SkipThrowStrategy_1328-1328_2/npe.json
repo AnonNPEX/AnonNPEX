@@ -1,7 +1,0 @@
-{
-    "filepath": "jaxrs/src/main/java/org/apache/cxf/jaxrs/utils/JAXRSUtils.java",
-    "line": 1328,
-    "npe_method": "getStructuredParams",
-    "deref_field": "value",
-    "npe_class": "JAXRSUtils"
-}

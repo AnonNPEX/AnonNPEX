@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "src/main/java/org/springframework/hateoas/ResourceSupport.java",
-  "line": 139,
-  "deref_field": "obj",
-  "npe_class": "ResourceSupport",
-  "npe_method": "equals",
-  "fault_type": "Parameter"
-}

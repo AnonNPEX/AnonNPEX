@@ -1,5 +1,0 @@
-{
-    "contents": "if (ast != null) {\n    org.apache.xmpbox.type.AbstractStructuredType ast = parseLiDescription(xmp, org.apache.xmpbox.xml.DomHelper.getQName(property), property);\n    // pdfbox-2477\n    ast.setPrefix(prefix);\n    container.addProperty(ast);\n}",
-    "original_filepath": "org/apache/xmpbox/xml/DomXmpParser.java",
-    "patched_lines": [389]
-}

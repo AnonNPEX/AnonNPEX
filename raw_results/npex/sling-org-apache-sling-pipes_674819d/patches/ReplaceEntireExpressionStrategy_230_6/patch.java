@@ -234,8 +234,8 @@ public class PipeBindings {
 public java.lang.Object instantiateObject(java.lang.String expr) {
     try {
         java.lang.Object result = evaluate(expr);
-        /* NPEX_PATCH_BEGINS */
-        if (result != null ? !result.getClass().getName().startsWith("java.lang.") : true) {
+        if (!/* NPEX_PATCH_BEGINS */
+        (result != null ? result.getClass().getName() : "NULL").startsWith("java.lang.")) {
             // special case of the date in which case jdk.nashorn.api.scripting.ScriptObjectMirror will
             // be returned
             org.apache.sling.pipes.PipeBindings.JsDate jsDate = ((javax.script.Invocable) (engine)).getInterface(result, org.apache.sling.pipes.PipeBindings.JsDate.class);

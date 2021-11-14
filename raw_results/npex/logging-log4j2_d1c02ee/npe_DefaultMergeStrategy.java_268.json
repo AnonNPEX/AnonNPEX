@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "log4j-core/src/main/java/org/apache/logging/log4j/core/config/composite/DefaultMergeStrategy.java",
-  "line": 268,
-  "deref_field": "value",
-  "npe_class": "DefaultMergeStrategy",
-  "npe_method": "isSameReference",
-  "fault_type": "NullAssign"
-}

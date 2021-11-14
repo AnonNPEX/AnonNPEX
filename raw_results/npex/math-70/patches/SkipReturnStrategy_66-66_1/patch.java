@@ -67,7 +67,7 @@ public class BisectionSolver extends UnivariateRealSolverImpl {
 public double solve(double min, double max) throws org.apache.commons.math.MaxIterationsExceededException, org.apache.commons.math.FunctionEvaluationException {
     /* NPEX_PATCH_BEGINS */
     if (f == null) {
-        return 0.0;
+        return null;
     }
     return solve(f, min, max);
 }

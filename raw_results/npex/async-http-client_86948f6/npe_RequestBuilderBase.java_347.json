@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "client/src/main/java/org/asynchttpclient/RequestBuilderBase.java",
-  "line": 347,
-  "deref_field": "uri",
-  "npe_class": "RequestBuilderBase",
-  "npe_method": "setQueryParams",
-  "fault_type": "NullAssign"
-}

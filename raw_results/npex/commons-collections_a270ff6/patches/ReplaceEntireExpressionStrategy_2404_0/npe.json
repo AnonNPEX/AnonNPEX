@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/commons/collections4/trie/AbstractPatriciaTrie.java",
-    "line": 2404,
-    "npe_method": "remove",
-    "deref_field": "subtree",
-    "npe_class": "EntryIterator"
-}

@@ -772,7 +772,7 @@ public synchronized java.lang.String toString() {
     final java.lang.String pwdKey = "password";
     /* NPEX_PATCH_BEGINS */
     if (connectionProperties == null) {
-        throw new java.sql.SQLFeatureNotSupportedException();
+        throw new java.lang.IllegalStateException();
     }
     if (connectionProperties.contains(pwdKey)) {
         tmpProps = ((java.util.Properties) (connectionProperties.clone()));

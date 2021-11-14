@@ -1216,7 +1216,7 @@ public org.apache.rocketmq.common.protocol.body.ConsumerRunningInfo consumerRunn
     org.apache.rocketmq.client.impl.consumer.MQConsumerInner mqConsumerInner = this.consumerTable.get(consumerGroup);
     /* NPEX_PATCH_BEGINS */
     if (mqConsumerInner == null) {
-        throw new org.apache.rocketmq.remoting.exception.RemotingException("");
+        throw new java.lang.IllegalStateException();
     }
     org.apache.rocketmq.common.protocol.body.ConsumerRunningInfo consumerRunningInfo = mqConsumerInner.consumerRunningInfo();
     java.util.List<java.lang.String> nsList = this.mQClientAPIImpl.getRemotingClient().getNameServerAddressList();

@@ -1,8 +1,0 @@
-{
-  "filepath": "src/main/java/org/imdea/vcd/queue/QueueAddArgs.java",
-  "line": 21,
-  "deref_field": "getConf",
-  "npe_class": "QueueAddArgs",
-  "npe_method": "<init>",
-  "fault_type": "NullAssign"
-}

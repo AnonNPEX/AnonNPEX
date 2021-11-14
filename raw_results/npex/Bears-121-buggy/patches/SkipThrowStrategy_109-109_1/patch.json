@@ -1,5 +1,0 @@
-{
-    "contents": "if (channel == null) {\n    throw new java.sql.SQLException();\n}",
-    "original_filepath": "src/org/traccar/BaseProtocolDecoder.java",
-    "patched_lines": [110]
-}

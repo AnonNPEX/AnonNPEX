@@ -1,5 +1,0 @@
-{
-    "contents": "if (isLocked.get() != null ? isLocked.get() : null) {\n    return defaultValue.get();\n} else {\n    try {\n        isLocked.set(true);\n        return value.get();\n    } finally {\n        isLocked.set(false);\n    }\n}",
-    "original_filepath": "src/main/java/javaslang/Tuples.java",
-    "patched_lines": [856]
-}

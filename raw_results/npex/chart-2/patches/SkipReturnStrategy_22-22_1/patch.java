@@ -22,7 +22,7 @@ public static void testBug2849731_2() {
     if (r == null) {
         return;
     }
-    if (Main.eql(1.0, r.getLowerBound(), Main)) {
+    if (Main.eql(1.0, r.getLowerBound())) {
         java.lang.System.out.println("PASS");
     } else {
         Main.pass = false;

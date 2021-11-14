@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "src/main/java/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java",
-  "line": 554,
-  "deref_field": "a",
-  "npe_class": "JacksonAnnotationIntrospector",
-  "npe_method": "findSubtypes",
-  "fault_type": "Parameter"
-}

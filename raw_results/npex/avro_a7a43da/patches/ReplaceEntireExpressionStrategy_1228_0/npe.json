@@ -1,7 +1,0 @@
-{
-    "filepath": "lang/java/avro/src/main/java/org/apache/avro/Schema.java",
-    "line": 1228,
-    "npe_method": "parse",
-    "deref_field": "schema",
-    "npe_class": "Schema"
-}

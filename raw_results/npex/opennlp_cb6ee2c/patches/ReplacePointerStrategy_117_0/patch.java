@@ -124,7 +124,7 @@ private java.lang.String lemmatize(final java.lang.String word, final java.lang.
     // lookup lemma as value of the map
     final java.util.List<java.lang.String> keyValues = this.dictMap.get(keys);
     if (!/* NPEX_PATCH_BEGINS */
-    (keyValues != null ? keyValues : new java.util.ArrayList()).isEmpty()) {
+    (keyValues != null ? keyValues : java.util.Collections.emptyList()).isEmpty()) {
         lemma = keyValues.get(0);
     } else {
         lemma = "O";

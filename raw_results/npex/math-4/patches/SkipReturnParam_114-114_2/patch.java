@@ -123,7 +123,7 @@ public class Line implements Embedding<Euclidean3D, Euclidean1D> {
 public double getAbscissa(final org.apache.commons.math3.geometry.euclidean.threed.Vector3D point) {
     /* NPEX_PATCH_BEGINS */
     if (point == null) {
-        return 1.0;
+        return java.lang.Double.NaN;
     }
     return point.subtract(zero).dotProduct(direction);
 }

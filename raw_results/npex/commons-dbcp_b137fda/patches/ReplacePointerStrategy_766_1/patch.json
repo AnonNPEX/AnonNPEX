@@ -1,5 +1,0 @@
-{
-    "contents": "java.util.Properties tmpProps = (connectionProperties != null) ? connectionProperties : new java.util.Properties()",
-    "original_filepath": "src/main/java/org/apache/commons/dbcp2/cpdsadapter/DriverAdapterCPDS.java",
-    "patched_lines": [772]
-}

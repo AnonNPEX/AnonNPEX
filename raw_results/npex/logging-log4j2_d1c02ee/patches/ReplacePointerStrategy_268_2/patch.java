@@ -266,6 +266,6 @@ public class DefaultMergeStrategy implements MergeStrategy {
 private boolean isSameReference(final org.apache.logging.log4j.core.config.Node node1, final org.apache.logging.log4j.core.config.Node node2) {
     java.lang.String value = node1.getAttributes().get(org.apache.logging.log4j.core.config.composite.DefaultMergeStrategy.REF);
     return /* NPEX_PATCH_BEGINS */
-    (value != null ? value : "").toLowerCase().equals(node2.getAttributes().get(org.apache.logging.log4j.core.config.composite.DefaultMergeStrategy.REF).toLowerCase());
+    (value != null ? value : "NULL").toLowerCase().equals(node2.getAttributes().get(org.apache.logging.log4j.core.config.composite.DefaultMergeStrategy.REF).toLowerCase());
 }
 }

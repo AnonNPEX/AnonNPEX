@@ -1,8 +1,0 @@
-{
-  "filepath": "org/jfree/chart/axis/Axis.java",
-  "line": 1192,
-  "deref_field": "owner",
-  "npe_class": "Axis",
-  "npe_method": "drawLabel",
-  "fault_type": "NullAssign"
-}

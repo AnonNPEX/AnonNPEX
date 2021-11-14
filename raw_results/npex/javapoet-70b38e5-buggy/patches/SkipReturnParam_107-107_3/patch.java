@@ -109,7 +109,7 @@ public class TypeName {
 public static com.squareup.javapoet.TypeName get(javax.lang.model.type.TypeMirror mirror) {
     /* NPEX_PATCH_BEGINS */
     if (mirror == null) {
-        return null;
+        return new com.squareup.javapoet.TypeName();
     }
     return mirror.accept(new javax.lang.model.util.SimpleTypeVisitor7<com.squareup.javapoet.TypeName, java.lang.Void>() {
         @java.lang.Override

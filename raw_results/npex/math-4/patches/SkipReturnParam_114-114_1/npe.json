@@ -1,7 +1,0 @@
-{
-    "filepath": "org/apache/commons/math3/geometry/euclidean/threed/Line.java",
-    "line": 114,
-    "npe_method": "getAbscissa",
-    "deref_field": "point",
-    "npe_class": "Line"
-}

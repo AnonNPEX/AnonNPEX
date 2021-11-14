@@ -1382,7 +1382,7 @@ public class PiePlot extends Plot implements Cloneable, Serializable {
 public double getMaximumExplodePercent() {
     double result = 0.0;
     java.util.Iterator iterator = /* NPEX_PATCH_BEGINS */
-    (this.dataset != null ? this.dataset.getKeys() : new java.util.ArrayList()).iterator();
+    (this.dataset != null ? this.dataset.getKeys() : java.util.Collections.emptyList()).iterator();
     while (iterator.hasNext()) {
         java.lang.Comparable key = ((java.lang.Comparable) (iterator.next()));
         java.lang.Number explode = ((java.lang.Number) (this.explodePercentages.get(key)));

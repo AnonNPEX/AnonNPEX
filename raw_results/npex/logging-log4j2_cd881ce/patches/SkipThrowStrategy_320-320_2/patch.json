@@ -1,5 +1,0 @@
-{
-    "contents": "if (params == null) {\n    throw new java.lang.IllegalAccessException();\n}",
-    "original_filepath": "log4j-api/src/main/java/org/apache/logging/log4j/spi/AbstractLogger.java",
-    "patched_lines": [331]
-}

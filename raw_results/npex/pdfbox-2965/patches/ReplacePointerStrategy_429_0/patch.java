@@ -429,7 +429,7 @@ public org.apache.pdfbox.pdmodel.interactive.form.PDField getField(java.lang.Str
         java.lang.String[] nameSubSection = fullyQualifiedName.split("\\.");
         org.apache.pdfbox.cos.COSArray fields = ((org.apache.pdfbox.cos.COSArray) (dictionary.getDictionaryObject(org.apache.pdfbox.cos.COSName.FIELDS)));
         for (int i = 0; (i < /* NPEX_PATCH_BEGINS */
-        (fields != null ? fields : new org.apache.pdfbox.cos.COSArray()).size()) && (retval == null); i++) {
+        (fields != null ? fields : null).size()) && (retval == null); i++) {
             org.apache.pdfbox.cos.COSDictionary element = ((org.apache.pdfbox.cos.COSDictionary) (fields.getObject(i)));
             if (element != null) {
                 org.apache.pdfbox.cos.COSString fieldName = ((org.apache.pdfbox.cos.COSString) (element.getDictionaryObject(org.apache.pdfbox.cos.COSName.T)));

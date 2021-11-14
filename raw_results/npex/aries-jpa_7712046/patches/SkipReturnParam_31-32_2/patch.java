@@ -30,7 +30,7 @@ public class AnnotationScanner {
 public java.util.List<java.lang.reflect.AccessibleObject> getJpaAnnotatedMembers(java.lang.Class<?> c, java.lang.Class<? extends java.lang.annotation.Annotation> annotation) {
     /* NPEX_PATCH_BEGINS */
     if (c == null) {
-        return new java.util.ArrayList();
+        return null;
     }
     final java.util.List<java.lang.reflect.AccessibleObject> jpaAnnotated = new java.util.ArrayList<java.lang.reflect.AccessibleObject>();
     for (java.lang.Class<?> cl = c; cl != java.lang.Object.class; cl = cl.getSuperclass()) {

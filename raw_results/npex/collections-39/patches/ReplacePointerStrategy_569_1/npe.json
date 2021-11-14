@@ -1,7 +1,0 @@
-{
-    "filepath": "org/apache/commons/collections/ExtendedProperties.java",
-    "line": 569,
-    "npe_method": "load",
-    "deref_field": "line",
-    "npe_class": "ExtendedProperties"
-}

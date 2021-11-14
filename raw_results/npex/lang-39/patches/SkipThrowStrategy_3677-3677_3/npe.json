@@ -1,7 +1,0 @@
-{
-    "filepath": "org/apache/commons/lang3/StringUtils.java",
-    "line": 3677,
-    "npe_method": "replaceEach",
-    "deref_field": "replacement_str",
-    "npe_class": "StringUtils"
-}

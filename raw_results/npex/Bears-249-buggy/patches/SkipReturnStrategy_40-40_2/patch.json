@@ -1,5 +1,0 @@
-{
-    "contents": "if (dep2 == null) {\n    return;\n}",
-    "original_filepath": "src/main/java/org/imdea/vcd/queue/box/CommittedQueueBox.java",
-    "patched_lines": [41]
-}

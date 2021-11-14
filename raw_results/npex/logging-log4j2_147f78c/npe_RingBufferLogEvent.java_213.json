@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "log4j-core/src/main/java/org/apache/logging/log4j/core/async/RingBufferLogEvent.java",
-  "line": 213,
-  "deref_field": "messageText",
-  "npe_class": "RingBufferLogEvent",
-  "npe_method": "getFormattedMessage",
-  "fault_type": "NullAssign"
-}

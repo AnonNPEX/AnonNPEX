@@ -514,7 +514,7 @@ public java.util.Enumeration getResourcesLocal(java.lang.String name) {
         }
         // Check the module class path.
         for (int i = 0; i < /* NPEX_PATCH_BEGINS */
-        (contentPath != null ? contentPath : new java.util.ArrayList()).size(); i++) {
+        (contentPath != null ? contentPath : java.util.Collections.emptyList()).size(); i++) {
             if (contentPath.get(i).hasEntry(name)) {
                 // Use the class path index + 1 for creating the path so
                 // that we can differentiate between module content URLs

@@ -770,7 +770,7 @@ public synchronized java.lang.String toString() {
     builder.append(", connectionProperties=");
     /* NPEX_PATCH_BEGINS */
     if (connectionProperties == null) {
-        throw new java.sql.SQLFeatureNotSupportedException();
+        throw new java.lang.IllegalStateException();
     }
     java.util.Properties tmpProps = connectionProperties;
     final java.lang.String pwdKey = "password";

@@ -3410,7 +3410,7 @@ public static java.lang.String join(java.lang.Object[] array, java.lang.String s
         return org.apache.commons.lang3.StringUtils.EMPTY;
     }
     java.lang.StringBuilder buf = /* NPEX_PATCH_BEGINS */
-    new java.lang.StringBuilder((array[startIndex].toString() != null ? array[startIndex] == null ? 16 : array[startIndex].toString().length() : 0) + separator.length());
+    new java.lang.StringBuilder((array[startIndex] == null ? 16 : array[startIndex].toString() != null ? array[startIndex].toString().length() : 0) + separator.length());
     for (int i = startIndex; i < endIndex; i++) {
         if (i > startIndex) {
             buf.append(separator);

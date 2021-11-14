@@ -1,8 +1,0 @@
-{
-  "filepath": "org/apache/pdfbox/pdmodel/font/encoding/Encoding.java",
-  "line": 106,
-  "deref_field": "names",
-  "npe_class": "Encoding",
-  "npe_method": "contains",
-  "fault_type": "NullAssign"
-}

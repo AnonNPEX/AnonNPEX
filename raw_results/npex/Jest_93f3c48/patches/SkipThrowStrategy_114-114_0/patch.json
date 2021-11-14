@@ -1,5 +1,0 @@
-{
-    "contents": "if (discoveredServerList == null) {\n    throw new java.lang.Exception();\n}",
-    "original_filepath": "jest-common/src/main/java/io/searchbox/client/config/discovery/NodeChecker.java",
-    "patched_lines": [115]
-}

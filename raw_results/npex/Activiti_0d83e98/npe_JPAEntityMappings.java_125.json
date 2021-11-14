@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "modules/activiti-engine/src/main/java/org/activiti/engine/impl/variable/JPAEntityMappings.java",
-  "line": 125,
-  "deref_field": "getCommandContext",
-  "npe_class": "JPAEntityMappings",
-  "npe_method": "findEntity",
-  "fault_type": "NullDereference"
-}

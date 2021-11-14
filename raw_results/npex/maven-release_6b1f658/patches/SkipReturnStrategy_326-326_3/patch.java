@@ -322,7 +322,7 @@ private java.lang.String resolveSuggestedVersion(java.lang.String baseVersion, j
     org.apache.maven.shared.release.policy.version.VersionPolicyRequest request = new org.apache.maven.shared.release.policy.version.VersionPolicyRequest().setVersion(baseVersion);
     /* NPEX_PATCH_BEGINS */
     if (policy == null) {
-        return "null";
+        return null;
     }
     return convertToSnapshot ? policy.getDevelopmentVersion(request).getVersion() : policy.getReleaseVersion(request).getVersion();
 }

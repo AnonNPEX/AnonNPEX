@@ -132,7 +132,7 @@ public class Line implements Embedding<Euclidean3D, Euclidean1D> {
  */
 public org.apache.commons.math3.geometry.euclidean.oned.Vector1D toSubSpace(final org.apache.commons.math3.geometry.Vector<org.apache.commons.math3.geometry.euclidean.threed.Euclidean3D> point) {
     return /* NPEX_PATCH_BEGINS */
-    new org.apache.commons.math3.geometry.euclidean.oned.Vector1D(((org.apache.commons.math3.geometry.euclidean.threed.Vector3D) (point)) != null ? getAbscissa(((org.apache.commons.math3.geometry.euclidean.threed.Vector3D) (point))) : 1.0);
+    new org.apache.commons.math3.geometry.euclidean.oned.Vector1D(((org.apache.commons.math3.geometry.euclidean.threed.Vector3D) (point)) != null ? getAbscissa(((org.apache.commons.math3.geometry.euclidean.threed.Vector3D) (point))) : 0.0);
 }
 
     /** {@inheritDoc}

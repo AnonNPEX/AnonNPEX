@@ -261,7 +261,7 @@ public java.io.InputStream createInputStream(java.util.List<java.lang.String> st
     java.io.ByteArrayOutputStream os = new java.io.ByteArrayOutputStream();
     java.util.List<org.apache.pdfbox.cos.COSName> filters = getFilters();
     for (int i = 0; i < /* NPEX_PATCH_BEGINS */
-    (filters != null ? filters : new java.util.ArrayList()).size(); i++) {
+    (filters != null ? filters : java.util.Collections.emptyList()).size(); i++) {
         org.apache.pdfbox.cos.COSName nextFilter = filters.get(i);
         if (stopFilters.contains(nextFilter.getName())) {
             break;

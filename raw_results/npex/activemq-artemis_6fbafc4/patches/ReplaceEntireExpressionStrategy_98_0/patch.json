@@ -1,5 +1,0 @@
-{
-    "contents": "for (java.lang.Object o : inList != null ? inList : null) {\n    if (count != 0) {\n        answer.append(\", \");\n    }\n    answer.append(o);\n    count++;\n}",
-    "original_filepath": "src/main/java/org/apache/activemq/artemis/selector/filter/UnaryExpression.java",
-    "patched_lines": [98]
-}

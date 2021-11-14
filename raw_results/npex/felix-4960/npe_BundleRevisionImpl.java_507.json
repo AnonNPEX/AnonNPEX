@@ -1,8 +1,0 @@
-{
-  "filepath": "org/apache/felix/framework/BundleRevisionImpl.java",
-  "line": 507,
-  "deref_field": "getContentPath",
-  "npe_class": "BundleRevisionImpl",
-  "npe_method": "getResourcesLocal",
-  "fault_type": "NullAssign"
-}

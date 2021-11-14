@@ -1,8 +1,0 @@
-{
-  "filepath": "src/main/java/org/imdea/vcd/queue/clock/Clock.java",
-  "line": 24,
-  "deref_field": "clock",
-  "npe_class": "Clock",
-  "npe_method": "<init>",
-  "fault_type": "NullDereference"
-}

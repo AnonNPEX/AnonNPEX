@@ -1,5 +1,0 @@
-{
-    "contents": "if (evaluate(expr) != null) {\n    java.lang.Object result = evaluate(expr);\n}",
-    "original_filepath": "src/main/java/org/apache/sling/pipes/PipeBindings.java",
-    "patched_lines": [237]
-}

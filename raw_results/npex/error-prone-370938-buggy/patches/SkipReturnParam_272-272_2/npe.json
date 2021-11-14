@@ -1,7 +1,0 @@
-{
-    "filepath": "core/src/main/java/com/google/errorprone/bugpatterns/threadsafety/GuardedByBinder.java",
-    "line": 272,
-    "npe_method": "computeBase",
-    "deref_field": "symbol",
-    "npe_class": "2"
-}

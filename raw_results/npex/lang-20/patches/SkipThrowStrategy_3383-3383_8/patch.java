@@ -3411,7 +3411,7 @@ public static java.lang.String join(java.lang.Object[] array, java.lang.String s
     }
     /* NPEX_PATCH_BEGINS */
     if (array[startIndex].toString() == null) {
-        throw new java.lang.reflect.InvocationTargetException();
+        throw new java.lang.IllegalArgumentException();
     }
     java.lang.StringBuilder buf = new java.lang.StringBuilder((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + separator.length());
     for (int i = startIndex; i < endIndex; i++) {

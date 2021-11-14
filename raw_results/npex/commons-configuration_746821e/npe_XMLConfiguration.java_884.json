@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "src/main/java/org/apache/commons/configuration2/XMLConfiguration.java",
-  "line": 884,
-  "deref_field": "locator",
-  "npe_class": "XMLConfiguration",
-  "npe_method": "createTransformer",
-  "fault_type": "NullAssign"
-}

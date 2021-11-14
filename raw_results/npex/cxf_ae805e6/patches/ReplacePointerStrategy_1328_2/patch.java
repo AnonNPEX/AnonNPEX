@@ -1322,7 +1322,7 @@ public static void getStructuredParams(javax.ws.rs.core.MultivaluedMap<java.lang
             }
             if (valueIsCollection) {
                 for (java.lang.String s : /* NPEX_PATCH_BEGINS */
-                (value != null ? value : "").split(",")) {
+                (value != null ? value : "NULL").split(",")) {
                     org.apache.cxf.jaxrs.utils.JAXRSUtils.addStructuredPartToMap(queries, sep, name, s, decode, decodePlus);
                 }
             } else {

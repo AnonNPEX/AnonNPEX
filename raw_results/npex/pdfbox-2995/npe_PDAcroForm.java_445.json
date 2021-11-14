@@ -1,8 +1,0 @@
-{
-  "filepath": "org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java",
-  "line": 445,
-  "deref_field": "defaultAppearance",
-  "npe_class": "PDAcroForm",
-  "npe_method": "getDefaultAppearance",
-  "fault_type": "NullAssign"
-}

@@ -214,7 +214,7 @@ public class ExpressionVisitorAdapter implements ExpressionVisitor, ItemsListVis
 public void visit(net.sf.jsqlparser.statement.select.SubSelect subSelect) {
     if (selectVisitor != null) {
         /* NPEX_PATCH_BEGINS */
-        for (net.sf.jsqlparser.statement.select.WithItem item : subSelect.getWithItemsList() != null ? subSelect.getWithItemsList() : new java.util.ArrayList()) {
+        for (net.sf.jsqlparser.statement.select.WithItem item : subSelect.getWithItemsList() != null ? subSelect.getWithItemsList() : null) {
             item.accept(selectVisitor);
         }
         subSelect.getSelectBody().accept(selectVisitor);

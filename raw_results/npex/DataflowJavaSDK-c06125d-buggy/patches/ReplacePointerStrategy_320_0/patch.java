@@ -314,7 +314,7 @@ private <V> V innerGetOnly(com.google.cloud.dataflow.sdk.values.TupleTag<V> tag,
     }
     java.util.List<com.google.cloud.dataflow.sdk.transforms.join.RawUnionValue> unions = valueMap.get(index);
     if (/* NPEX_PATCH_BEGINS */
-    (unions != null ? unions : new java.util.ArrayList()).isEmpty()) {
+    (unions != null ? unions : java.util.Collections.emptyList()).isEmpty()) {
         if (useDefault) {
             return defaultValue;
         } else {

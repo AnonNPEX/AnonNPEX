@@ -1,8 +1,0 @@
-{
-  "filepath": "org/apache/xmpbox/xml/DomXmpParser.java",
-  "line": 393,
-  "deref_field": "ast",
-  "npe_class": "DomXmpParser",
-  "npe_method": "manageStructuredType",
-  "fault_type": "NullDereference"
-}

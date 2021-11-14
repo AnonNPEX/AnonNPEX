@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "proton-j/src/main/java/org/apache/qpid/proton/engine/impl/TransportImpl.java",
-  "line": 520,
-  "deref_field": "getTransportSession",
-  "npe_class": "TransportImpl",
-  "npe_method": "processTransportWorkSender",
-  "fault_type": "NullAssign"
-}

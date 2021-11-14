@@ -853,7 +853,7 @@ public final class Tuples {
  */
 private static <T> T decycle(java.lang.ThreadLocal<java.lang.Boolean> isLocked, java.util.function.Supplier<T> value, java.util.function.Supplier<T> defaultValue) {
     /* NPEX_PATCH_BEGINS */
-    if (isLocked.get() != null ? isLocked.get() : java.lang.Boolean.TRUE) {
+    if (isLocked.get() != null ? isLocked.get() : java.lang.Boolean.FALSE) {
         return defaultValue.get();
     } else {
         try {

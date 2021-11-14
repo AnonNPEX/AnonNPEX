@@ -210,7 +210,7 @@ public enum IOCase {
 public boolean checkEndsWith(final java.lang.String str, final java.lang.String end) {
     /* NPEX_PATCH_BEGINS */
     if (end == null) {
-        return false;
+        return true;
     }
     final int endLen = end.length();
     return str.regionMatches(!sensitive, str.length() - endLen, end, 0, endLen);

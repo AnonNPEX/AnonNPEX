@@ -1,8 +1,0 @@
-{
-  "filepath": "dubbo-common/src/main/java/com/alibaba/dubbo/common/URL.java",
-  "line": 974,
-  "deref_field": "value",
-  "npe_class": "URL",
-  "npe_method": "addParameters",
-  "fault_type": "NullAssign"
-}

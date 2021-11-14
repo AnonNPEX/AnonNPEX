@@ -191,7 +191,7 @@ public class SmartStackTraceParser
 private static java.util.List<java.lang.StackTraceElement> focusOnClass(java.lang.StackTraceElement[] stackTrace, java.lang.Class<?> clazz) {
     /* NPEX_PATCH_BEGINS */
     if (stackTrace == null) {
-        return null;
+        return new java.util.ArrayList();
     }
     java.util.List<java.lang.StackTraceElement> result = new java.util.ArrayList<>();
     for (java.lang.StackTraceElement element : stackTrace) {

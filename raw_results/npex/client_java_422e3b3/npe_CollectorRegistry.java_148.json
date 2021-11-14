@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "simpleclient/src/main/java/io/prometheus/client/CollectorRegistry.java",
-  "line": 148,
-  "deref_field": "includedNames",
-  "npe_class": "CollectorRegistry$MetricFamilySamplesEnumeration",
-  "npe_method": "includedCollectorIterator",
-  "fault_type": "NullAssign"
-}

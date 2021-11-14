@@ -1,8 +1,0 @@
-{
-  "filepath": "core/src/main/java/hivemall/GeneralLearnerBaseUDTF.java",
-  "line": 763,
-  "deref_field": "model",
-  "npe_class": "GeneralLearnerBaseUDTF",
-  "npe_method": "forwardModel",
-  "fault_type": "NullAssign"
-}

@@ -1,5 +1,0 @@
-{
-    "contents": "if (str != null) {\n    ensureCapacity(size + width);\n    java.lang.String str = (obj == null) ? getNullText() : obj.toString();\n    int strLen = str.length();\n    if (strLen >= width) {\n        str.getChars(0, width, buffer, size);\n    } else {\n        int padLen = width - strLen;\n        str.getChars(0, strLen, buffer, size);\n        for (int i = 0; i < padLen; i++) {\n            buffer[(size + strLen) + i] = padChar;\n        }\n    }\n    size += width;\n}",
-    "original_filepath": "org/apache/commons/lang3/text/StrBuilder.java",
-    "patched_lines": [1331]
-}

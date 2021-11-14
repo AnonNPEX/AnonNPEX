@@ -387,7 +387,7 @@ public abstract class CtElementImpl implements CtElement, Serializable {
 	@Override
 public java.util.Set<java.lang.String> getMetadataKeys() {
     return /* NPEX_PATCH_BEGINS */
-    (metadata != null ? metadata : new java.util.HashMap()).keySet();
+    (metadata != null ? metadata : null).keySet();
 }
 
 	@Override

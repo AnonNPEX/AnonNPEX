@@ -1,5 +1,0 @@
-{
-    "contents": "if (node == null) {\n    throw new org.apache.iotdb.db.exception.metadata.PathNotExistException(\"\");\n}",
-    "original_filepath": "server/src/main/java/org/apache/iotdb/db/metadata/MTree.java",
-    "patched_lines": [1152]
-}

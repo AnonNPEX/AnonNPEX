@@ -1,8 +1,0 @@
-{
-  "filepath": "ninja-core/src/main/java/ninja/Route.java",
-  "line": 128,
-  "deref_field": "parameters",
-  "npe_class": "Route",
-  "npe_method": "getPathParametersEncoded",
-  "fault_type": "NullAssign"
-}

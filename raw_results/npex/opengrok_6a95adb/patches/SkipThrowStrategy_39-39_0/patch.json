@@ -1,5 +1,0 @@
-{
-    "contents": "if (iterable == null) {\n    throw new java.lang.NullPointerException();\n}",
-    "original_filepath": "src/org/opensolaris/opengrok/analysis/IteratorReader.java",
-    "patched_lines": [40]
-}

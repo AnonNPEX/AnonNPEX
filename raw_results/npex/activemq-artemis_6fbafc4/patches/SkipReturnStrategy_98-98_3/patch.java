@@ -96,7 +96,7 @@ public java.lang.String toString() {
     int count = 0;
     /* NPEX_PATCH_BEGINS */
     if (inList == null) {
-        return "";
+        return "null";
     }
     for (java.lang.Object o : inList) {
         if (count != 0) {

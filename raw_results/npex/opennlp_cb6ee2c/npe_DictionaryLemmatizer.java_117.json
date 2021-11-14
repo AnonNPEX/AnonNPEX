@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/DictionaryLemmatizer.java",
-  "line": 117,
-  "deref_field": "keyValues",
-  "npe_class": "DictionaryLemmatizer",
-  "npe_method": "lemmatize",
-  "fault_type": "NullAssign"
-}

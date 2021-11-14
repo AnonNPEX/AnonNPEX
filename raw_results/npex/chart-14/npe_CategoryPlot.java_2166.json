@@ -1,8 +1,0 @@
-{
-  "filepath": "org/jfree/chart/plot/CategoryPlot.java",
-  "line": 2166,
-  "deref_field": "markers",
-  "npe_class": "CategoryPlot",
-  "npe_method": "removeDomainMarker",
-  "fault_type": "NullAssign"
-}

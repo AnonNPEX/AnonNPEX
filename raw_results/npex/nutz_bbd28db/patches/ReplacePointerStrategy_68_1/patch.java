@@ -67,7 +67,7 @@ public static org.nutz.http.Sender create(org.nutz.http.Request request) {
     }
     if (request.isPost() || request.isPut()) {
         for (java.lang.Object val : /* NPEX_PATCH_BEGINS */
-        (request.getParams() != null ? request.getParams() : new java.util.HashMap()).values()) {
+        (request.getParams() != null ? request.getParams() : null).values()) {
             if ((val instanceof java.io.File) || (val instanceof java.io.File[])) {
                 return new org.nutz.http.sender.FilePostSender(request);
             }

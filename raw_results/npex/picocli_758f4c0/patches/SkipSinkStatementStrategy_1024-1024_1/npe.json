@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/picocli/CommandLine.java",
-    "line": 1024,
-    "npe_method": "parameterIndex",
-    "deref_field": "getAnnotation",
-    "npe_class": "Range"
-}

@@ -135,8 +135,8 @@ public java.util.Map<java.lang.String, java.lang.String> getPathParametersEncode
     java.util.Map<java.lang.String, java.lang.String> map = com.google.common.collect.Maps.newHashMap();
     java.util.regex.Matcher m = regex.matcher(uri);
     if (m.matches()) {
-        java.util.Iterator<java.lang.String> it = /* NPEX_PATCH_BEGINS */
-        (this.parameters != null ? this.parameters.keySet() : new java.util.HashSet()).iterator();
+        /* NPEX_PATCH_BEGINS */
+        java.util.Iterator<java.lang.String> it = (this.parameters != null) ? this.parameters.keySet().iterator() : null;
         for (int i = 1; i < (m.groupCount() + 1); i++) {
             java.lang.String parameterName = it.next();
             map.put(parameterName, m.group(i));

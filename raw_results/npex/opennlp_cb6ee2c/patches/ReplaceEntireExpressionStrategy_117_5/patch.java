@@ -123,8 +123,8 @@ private java.lang.String lemmatize(final java.lang.String word, final java.lang.
     final java.util.List<java.lang.String> keys = this.getDictKeys(word, postag);
     // lookup lemma as value of the map
     final java.util.List<java.lang.String> keyValues = this.dictMap.get(keys);
-    /* NPEX_PATCH_BEGINS */
-    if (keyValues != null ? !keyValues.isEmpty() : true) {
+    if (/* NPEX_PATCH_BEGINS */
+    !(keyValues != null ? keyValues.isEmpty() : true)) {
         lemma = keyValues.get(0);
     } else {
         lemma = "O";

@@ -1383,7 +1383,7 @@ public double getMaximumExplodePercent() {
     double result = 0.0;
     /* NPEX_PATCH_BEGINS */
     if (this.dataset == null) {
-        return 1.0;
+        return 0.0;
     }
     java.util.Iterator iterator = this.dataset.getKeys().iterator();
     while (iterator.hasNext()) {

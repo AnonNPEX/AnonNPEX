@@ -1,8 +1,0 @@
-{
-  "filepath": "src/main/java/javaslang/Tuples.java",
-  "line": 840,
-  "deref_field": "get",
-  "npe_class": "Tuples$AbstractTuple",
-  "npe_method": "decycle",
-  "fault_type": "NullDereference"
-}

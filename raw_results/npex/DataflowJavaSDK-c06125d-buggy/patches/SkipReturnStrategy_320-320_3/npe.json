@@ -1,7 +1,0 @@
-{
-    "filepath": "sdk/src/main/java/com/google/cloud/dataflow/sdk/transforms/join/CoGbkResult.java",
-    "line": 320,
-    "npe_method": "innerGetOnly",
-    "deref_field": "unions",
-    "npe_class": "CoGbkResult"
-}

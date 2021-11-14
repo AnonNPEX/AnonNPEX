@@ -229,7 +229,7 @@ private boolean setNextObject() {
     }
     /* NPEX_PATCH_BEGINS */
     if (iterator == null) {
-        return true;
+        return false;
     }
     while (iterator.hasNext()) {
         E object = iterator.next();

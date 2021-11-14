@@ -272,7 +272,7 @@ private void encryptDataAESother(byte[] finalKey, java.io.InputStream data, java
         int n;
         while ((n = data.read(buffer)) != (-1)) {
             /* NPEX_PATCH_BEGINS */
-            system.SystemLib.write(decryptCipher.update(buffer, 0, n) != null ? decryptCipher.update(buffer, 0, n) : new byte[]{  });
+            system.SystemLib.write(decryptCipher.update(buffer, 0, n) != null ? decryptCipher.update(buffer, 0, n) : null);
         } 
         output.write(decryptCipher.doFinal());
     } catch (java.security.InvalidKeyException e) {

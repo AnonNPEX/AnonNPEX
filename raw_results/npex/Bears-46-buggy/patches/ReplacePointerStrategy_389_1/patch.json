@@ -1,5 +1,5 @@
 {
-    "contents": "(metadata != null ? metadata : new java.util.HashMap()).keySet()",
+    "contents": "(metadata != null ? metadata : null).keySet()",
     "original_filepath": "src/main/java/spoon/support/reflect/declaration/CtElementImpl.java",
     "patched_lines": [390]
 }

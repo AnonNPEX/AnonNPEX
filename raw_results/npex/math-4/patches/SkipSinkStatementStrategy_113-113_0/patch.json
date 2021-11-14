@@ -1,5 +1,0 @@
-{
-    "contents": "if (line.intersection(subLine.line) != null) {\n    // compute the intersection on infinite line\n    org.apache.commons.math3.geometry.euclidean.threed.Vector3D v1D = line.intersection(subLine.line);\n}",
-    "original_filepath": "org/apache/commons/math3/geometry/euclidean/threed/SubLine.java",
-    "patched_lines": [130]
-}

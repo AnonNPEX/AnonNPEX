@@ -1,5 +1,0 @@
-{
-    "contents": "if (headers == null) {\n    headers = new java.util.HashMap();\n}",
-    "original_filepath": "core/src/main/java/feign/Response.java",
-    "patched_lines": [341]
-}

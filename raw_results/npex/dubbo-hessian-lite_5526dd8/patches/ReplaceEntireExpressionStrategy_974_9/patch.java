@@ -975,8 +975,8 @@ public com.alibaba.dubbo.common.URL addParameters(java.util.Map<java.lang.String
         if ((value == null) && (entry.getValue() != null)) {
             hasAndEqual = false;
             break;
-        } else /* NPEX_PATCH_BEGINS */
-        if (value != null ? !value.equals(entry.getValue()) : false) {
+        } else if (/* NPEX_PATCH_BEGINS */
+        !(value != null ? value.equals(entry.getValue()) : false)) {
             hasAndEqual = false;
             break;
         }

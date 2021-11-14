@@ -500,7 +500,7 @@ public class BundleRevisionImpl implements BundleRevision, Resource
 public java.util.Enumeration getResourcesLocal(java.lang.String name) {
     java.util.List l = new java.util.ArrayList();
     /* NPEX_PATCH_BEGINS */
-    final java.util.List<org.apache.felix.framework.cache.Content> contentPath = (getContentPath() != null) ? getContentPath() : new java.util.ArrayList();
+    final java.util.List<org.apache.felix.framework.cache.Content> contentPath = (getContentPath() != null) ? getContentPath() : null;
     if (name.equals("/")) {
         for (int i = 0; i < contentPath.size(); i++) {
             l.add(createURL(i + 1, name));

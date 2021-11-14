@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "fop-core/src/main/java/org/apache/fop/fonts/SingleByteFont.java",
-  "line": 138,
-  "deref_field": "boundingBoxes",
-  "npe_class": "SingleByteFont",
-  "npe_method": "getBoundingBox",
-  "fault_type": "NullAssign"
-}

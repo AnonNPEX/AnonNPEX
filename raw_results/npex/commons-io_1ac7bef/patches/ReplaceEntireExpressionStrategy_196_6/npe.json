@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/commons/io/IOCase.java",
-    "line": 196,
-    "npe_method": "checkEndsWith",
-    "deref_field": "end",
-    "npe_class": "IOCase"
-}

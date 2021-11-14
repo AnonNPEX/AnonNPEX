@@ -217,7 +217,7 @@ public class RingBufferLogEvent implements LogEvent, ReusableMessage, CharSequen
 public java.lang.String getFormattedMessage() {
     /* NPEX_PATCH_BEGINS */
     if (messageText == null) {
-        return "null";
+        return null;
     }
     return messageText.toString();
 }

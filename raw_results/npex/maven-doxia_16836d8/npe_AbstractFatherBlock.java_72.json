@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "doxia-modules/doxia-module-confluence/src/main/java/org/apache/maven/doxia/module/confluence/parser/AbstractFatherBlock.java",
-  "line": 72,
-  "deref_field": "block",
-  "npe_class": "AbstractFatherBlock",
-  "npe_method": "traverse",
-  "fault_type": "NullAssign"
-}

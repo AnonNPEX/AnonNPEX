@@ -19,7 +19,7 @@ public static void testBug2849731_2() {
     d.addSeries(s);
     org.jfree.data.Range r = org.jfree.data.general.DatasetUtilities.iterateDomainBounds(d);
     /* NPEX_PATCH_BEGINS */
-    if (r != null ? Main.eql(1.0, r.getLowerBound(), Main) : true) {
+    if (r != null ? Main.eql(1.0, r.getLowerBound()) : true) {
         java.lang.System.out.println("PASS");
     } else {
         Main.pass = false;

@@ -127,7 +127,7 @@ private static boolean isOverriddenMethod(com.puppycrawl.tools.checkstyle.api.De
     final com.puppycrawl.tools.checkstyle.api.DetailAST parent = ast.getParent().getParent();
     final com.puppycrawl.tools.checkstyle.api.DetailAST annotation = parent.getFirstChild().getFirstChild();
     if (/* NPEX_PATCH_BEGINS */
-    (annotation != null ? annotation : new com.puppycrawl.tools.checkstyle.api.DetailAST()).getType() == com.puppycrawl.tools.checkstyle.api.TokenTypes.ANNOTATION) {
+    (annotation != null ? annotation : null).getType() == com.puppycrawl.tools.checkstyle.api.TokenTypes.ANNOTATION) {
         final com.puppycrawl.tools.checkstyle.api.DetailAST overrideToken = annotation.findFirstToken(com.puppycrawl.tools.checkstyle.api.TokenTypes.IDENT);
         if ("Override".equals(overrideToken.getText())) {
             overridden = true;

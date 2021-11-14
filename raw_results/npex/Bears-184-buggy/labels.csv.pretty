@@ -1,7 +1,0 @@
-+ ------------------------------------------------------------------------------------------------------------------------------ +
-| bug_id          | label                    | detail                       | description | patch_id                             |
-+ ------------------------------------------------------------------------------------------------------------------------------ +
-| Bears-184-buggy | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | ReplaceEntireExpressionStrategy_79_1 |
-| Bears-184-buggy | LabelOverall.OVERFITTING | LabelDetail.MANUAL_INCORRECT |             | ReplaceEntireExpressionStrategy_79_2 |
-| Bears-184-buggy | LabelOverall.CORRECT     | LabelDetail.MANUAL_CORRECT   |             | ReplaceEntireExpressionStrategy_79_0 |
-+ ------------------------------------------------------------------------------------------------------------------------------ +

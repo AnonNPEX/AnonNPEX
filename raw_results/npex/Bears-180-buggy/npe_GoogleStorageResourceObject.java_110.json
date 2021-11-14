@@ -1,9 +1,0 @@
-{
-  "filepath":
-    "spring-cloud-gcp-storage/src/main/java/org/springframework/cloud/gcp/storage/GoogleStorageResourceObject.java",
-  "line": 110,
-  "deref_field": "getHost",
-  "npe_class": "GoogleStorageResourceObject",
-  "npe_method": "getBlobId",
-  "fault_type": "NullDereference"
-}

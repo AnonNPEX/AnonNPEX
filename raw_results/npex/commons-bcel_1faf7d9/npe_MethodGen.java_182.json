@@ -1,8 +1,0 @@
-{
-  "filepath": "src/main/java/org/apache/bcel/generic/MethodGen.java",
-  "line": 182,
-  "deref_field": "getCode",
-  "npe_class": "MethodGen",
-  "npe_method": "<init>",
-  "fault_type": "NullDereference"
-}

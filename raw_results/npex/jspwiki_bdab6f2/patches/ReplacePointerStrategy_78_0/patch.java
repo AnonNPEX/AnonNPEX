@@ -86,7 +86,7 @@ public static java.lang.String retrieveCookieValue(final javax.servlet.http.Http
             if (cookie.getName().equals(cookieName)) {
                 java.lang.String value = cookie.getValue();
                 if (/* NPEX_PATCH_BEGINS */
-                (value != null ? value : "null").length() == 0) {
+                (value != null ? value : "").length() == 0) {
                     return null;
                 }
                 if ((value.charAt(0) == '"') && (value.charAt(value.length() - 1) == '"')) {

@@ -1,7 +1,0 @@
-{
-    "filepath": "org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java",
-    "line": 429,
-    "npe_method": "getField",
-    "deref_field": "fields",
-    "npe_class": "PDAcroForm"
-}

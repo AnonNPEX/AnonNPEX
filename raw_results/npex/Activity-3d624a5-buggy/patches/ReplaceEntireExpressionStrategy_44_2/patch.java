@@ -38,7 +38,7 @@ public void handleEvent(org.activiti.engine.impl.persistence.entity.EventSubscri
         throw new org.activiti.engine.ActivitiException((("Error while sending signal for event subscription '" + eventSubscription.getId()) + "': ") + "no activity associated with event subscription");
     }
     if (/* NPEX_PATCH_BEGINS */
-    !(execution.getActivity() != null ? execution.getActivity().equals(activity) : true)) {
+    !(execution.getActivity() != null ? execution.getActivity().equals(activity) : activity == null)) {
         execution.setActivity(activity);
     }
     if (payload instanceof java.util.Map) {

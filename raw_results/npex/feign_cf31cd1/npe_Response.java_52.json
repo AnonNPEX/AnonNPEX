@@ -1,8 +1,0 @@
-{
-  "filepath": "core/src/main/java/feign/Response.java",
-  "line": 52,
-  "deref_field": "headers",
-  "npe_class": "Response",
-  "npe_method": "<init>",
-  "fault_type": "NullAssign"
-}

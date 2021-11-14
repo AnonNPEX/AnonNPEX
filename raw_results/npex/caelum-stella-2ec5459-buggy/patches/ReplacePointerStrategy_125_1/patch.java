@@ -123,7 +123,7 @@ public boolean isEligible(java.lang.String value) {
         result = br.com.caelum.stella.validation.CNPJValidator.FORMATED.matcher(value).matches();
     } else {
         result = /* NPEX_PATCH_BEGINS */
-        br.com.caelum.stella.validation.CNPJValidator.UNFORMATED.matcher(value != null ? value : "").matches();
+        br.com.caelum.stella.validation.CNPJValidator.UNFORMATED.matcher(value != null ? value : "null").matches();
     }
     return result;
 }

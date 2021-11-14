@@ -1,5 +1,0 @@
-{
-    "contents": "if (names == null) {\n    return true;\n}",
-    "original_filepath": "org/apache/pdfbox/pdmodel/font/encoding/Encoding.java",
-    "patched_lines": [110]
-}

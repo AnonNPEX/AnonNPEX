@@ -66,8 +66,8 @@ public class PDActionURI extends PDAction
  * @return The URI entry of the specific URI action dictionary.
  */
 public java.lang.String getURI() {
-    return /* NPEX_PATCH_BEGINS */
-    new java.lang.String(((org.apache.pdfbox.cos.COSString) (action.getDictionaryObject(org.apache.pdfbox.cos.COSName.URI))) != null ? ((org.apache.pdfbox.cos.COSString) (action.getDictionaryObject(org.apache.pdfbox.cos.COSName.URI))).getBytes() : new byte[]{  }, org.apache.pdfbox.util.Charsets.UTF_8);
+    /* NPEX_PATCH_BEGINS */
+    return ((org.apache.pdfbox.cos.COSString) (action.getDictionaryObject(org.apache.pdfbox.cos.COSName.URI))) != null ? new java.lang.String(((org.apache.pdfbox.cos.COSString) (action.getDictionaryObject(org.apache.pdfbox.cos.COSName.URI))).getBytes(), org.apache.pdfbox.util.Charsets.UTF_8) : "";
 }
 
     /**

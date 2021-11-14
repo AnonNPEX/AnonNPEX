@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/net/sf/jsqlparser/expression/ExpressionVisitorAdapter.java",
-    "line": 216,
-    "npe_method": "visit",
-    "deref_field": "getWithItemsList",
-    "npe_class": "ExpressionVisitorAdapter"
-}

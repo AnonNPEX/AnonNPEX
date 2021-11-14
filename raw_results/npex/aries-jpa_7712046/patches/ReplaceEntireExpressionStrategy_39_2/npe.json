@@ -1,7 +1,0 @@
-{
-    "filepath": "jpa-blueprint/src/main/java/org/apache/aries/jpa/blueprint/impl/AnnotationScanner.java",
-    "line": 39,
-    "npe_method": "parseClass",
-    "deref_field": "cl",
-    "npe_class": "AnnotationScanner"
-}

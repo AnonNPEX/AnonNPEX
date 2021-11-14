@@ -1,4 +1,0 @@
-{
-  "original_filepath": "org/apache/sling/scripting/thymeleaf/internal/SlingResourceTemplateResolver.java",
-  "patched_lines": [126]
-}

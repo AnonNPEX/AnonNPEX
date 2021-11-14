@@ -137,7 +137,7 @@ public java.util.Map<java.lang.String, java.lang.String> getPathParametersEncode
     if (m.matches()) {
         /* NPEX_PATCH_BEGINS */
         if (this.parameters == null) {
-            return null;
+            return java.util.Collections.emptyMap();
         }
         java.util.Iterator<java.lang.String> it = this.parameters.keySet().iterator();
         for (int i = 1; i < (m.groupCount() + 1); i++) {

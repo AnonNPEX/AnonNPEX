@@ -169,7 +169,7 @@ protected java.lang.Object decode(org.jboss.netty.channel.Channel channel, java.
     java.lang.String protocol = values[0].substring(0, 5);
     if (protocol.equals("ST910")) {
         /* NPEX_PATCH_BEGINS */
-        return channel != null ? decode9(channel, remoteAddress, values) : new org.traccar.model.Position();
+        return channel != null ? decode9(channel, remoteAddress, values) : null;
     } else {
         return decode23(channel, remoteAddress, protocol, values);
     }

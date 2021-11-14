@@ -574,7 +574,7 @@ public class URIBuilder {
  */
 public org.apache.hc.core5.net.URIBuilder appendPathSegments(final java.util.List<java.lang.String> pathSegments) {
     /* NPEX_PATCH_BEGINS */
-    if (((pathSegments != null ? pathSegments : new java.util.ArrayList()) != null) & (pathSegments.size() > 0)) {
+    if (((pathSegments != null ? pathSegments : null) != null) & (pathSegments.size() > 0)) {
         final java.util.List<java.lang.String> segments = new java.util.ArrayList<>(getPathSegments());
         segments.addAll(pathSegments);
         setPathSegments(segments);

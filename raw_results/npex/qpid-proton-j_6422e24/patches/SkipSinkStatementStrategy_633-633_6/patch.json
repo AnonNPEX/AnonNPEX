@@ -1,5 +1,0 @@
-{
-    "contents": "if (tpSession != null) {\n    writeFrame(tpSession.getLocalChannel(), disposition, null, null);\n}",
-    "original_filepath": "proton-j/src/main/java/org/apache/qpid/proton/engine/impl/TransportImpl.java",
-    "patched_lines": [597]
-}

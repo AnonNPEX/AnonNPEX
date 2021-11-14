@@ -581,7 +581,7 @@ public int getCategoryIndex(java.lang.Comparable category) {
     int result = -1;
     /* NPEX_PATCH_BEGINS */
     if (this.categoryKeys == null) {
-        return 0;
+        return null;
     }
     for (int i = 0; i < this.categoryKeys.length; i++) {
         if (category.equals(this.categoryKeys[i])) {

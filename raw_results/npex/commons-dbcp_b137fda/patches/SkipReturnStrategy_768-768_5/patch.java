@@ -772,7 +772,7 @@ public synchronized java.lang.String toString() {
     final java.lang.String pwdKey = "password";
     /* NPEX_PATCH_BEGINS */
     if (connectionProperties == null) {
-        return "null";
+        return "";
     }
     if (connectionProperties.contains(pwdKey)) {
         tmpProps = ((java.util.Properties) (connectionProperties.clone()));

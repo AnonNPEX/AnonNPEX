@@ -125,7 +125,7 @@ private java.lang.String lemmatize(final java.lang.String word, final java.lang.
     final java.util.List<java.lang.String> keyValues = this.dictMap.get(keys);
     /* NPEX_PATCH_BEGINS */
     if (keyValues == null) {
-        return "";
+        return "null";
     }
     if (!keyValues.isEmpty()) {
         lemma = keyValues.get(0);

@@ -1,8 +1,0 @@
-{
-  "filepath": "src/main/java/org/apache/sling/pipes/PipeBindings.java",
-  "line": 230,
-  "deref_field": "result",
-  "npe_class": "PipeBindings",
-  "npe_method": "instantiateObject",
-  "fault_type": "NullAssign"
-}

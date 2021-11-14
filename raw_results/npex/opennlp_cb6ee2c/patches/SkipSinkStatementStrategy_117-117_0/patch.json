@@ -1,5 +1,0 @@
-{
-    "contents": "if (keyValues != null) {\n    if (!keyValues.isEmpty()) {\n        lemma = keyValues.get(0);\n    } else {\n        lemma = \"O\";\n    }\n}",
-    "original_filepath": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/DictionaryLemmatizer.java",
-    "patched_lines": [127]
-}

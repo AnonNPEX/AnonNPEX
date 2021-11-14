@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/commons/dbcp2/cpdsadapter/DriverAdapterCPDS.java",
-    "line": 766,
-    "npe_method": "toString",
-    "deref_field": "connectionProperties",
-    "npe_class": "DriverAdapterCPDS"
-}

@@ -1,5 +1,0 @@
-{
-    "contents": "if (iccData == null) {\n    iccData = new org.apache.pdfbox.pdmodel.common.PDStream();\n}",
-    "original_filepath": "org/apache/pdfbox/pdmodel/graphics/color/PDColorSpaceFactory.java",
-    "patched_lines": [259]
-}

@@ -120,7 +120,7 @@ public class CNPJValidator implements Validator<String> {
 public boolean isEligible(java.lang.String value) {
     /* NPEX_PATCH_BEGINS */
     if (value == null) {
-        return false;
+        return true;
     }
     boolean result;
     if (isFormatted) {

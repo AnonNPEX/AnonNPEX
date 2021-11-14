@@ -338,7 +338,7 @@ public final class Response implements Closeable {
 private static java.util.Map<java.lang.String, java.util.Collection<java.lang.String>> caseInsensitiveCopyOf(java.util.Map<java.lang.String, java.util.Collection<java.lang.String>> headers) {
     java.util.Map<java.lang.String, java.util.Collection<java.lang.String>> result = new java.util.TreeMap<java.lang.String, java.util.Collection<java.lang.String>>(java.lang.String.CASE_INSENSITIVE_ORDER);
     for (java.util.Map.Entry<java.lang.String, java.util.Collection<java.lang.String>> entry : /* NPEX_PATCH_BEGINS */
-    (headers != null ? headers : new java.util.HashMap()).entrySet()) {
+    (headers != null ? headers : null).entrySet()) {
         java.lang.String headerName = entry.getKey();
         if (!result.containsKey(headerName)) {
             result.put(headerName.toLowerCase(java.util.Locale.ROOT), new java.util.LinkedList<java.lang.String>());

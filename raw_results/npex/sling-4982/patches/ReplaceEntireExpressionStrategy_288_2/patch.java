@@ -286,7 +286,7 @@ private boolean isJcrData(org.apache.sling.api.resource.Resource resource) {
     if (resource != null) {
         org.apache.sling.api.resource.ValueMap props = resource.adaptTo(org.apache.sling.api.resource.ValueMap.class);
         /* NPEX_PATCH_BEGINS */
-        if (props != null ? props.containsKey(org.apache.sling.security.impl.ContentDispositionFilter.RewriterResponse.PROP_JCR_DATA) : true) {
+        if (props != null ? props.containsKey(org.apache.sling.security.impl.ContentDispositionFilter.RewriterResponse.PROP_JCR_DATA) : org.apache.sling.security.impl.ContentDispositionFilter.RewriterResponse.PROP_JCR_DATA == null) {
             jcrData = true;
         } else {
             org.apache.sling.api.resource.Resource jcrContent = resource.getChild(org.apache.sling.security.impl.ContentDispositionFilter.RewriterResponse.JCR_CONTENT_LEAF);
