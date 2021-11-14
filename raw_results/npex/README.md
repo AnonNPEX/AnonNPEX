@@ -1,3 +1,12 @@
+## NPEX Data
+* input of NPEX
+  * Stack trace: [bug_id]/input/traces.json
+  * NPE-triggering expression: [bug_id]/input/npe.json
+* output of NPEX
+  * patch candidates: [bug_id]/patches/[patch_id]/patch.java
+  * validation results: [bug_id]/README.md
+
+## Summary of NPEX's Results
 | Bud ID                               | Source  | Label     | Detail Results                                              |
 |--------------------------------------|---------|-----------|-------------------------------------------------------------|
 | Bears-56-buggy                       | Bears   | NO_PATCH  | [Results](./Bears-56-buggy/README.md)                       |
